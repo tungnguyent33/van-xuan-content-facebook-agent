@@ -176,3 +176,11 @@
 1. **Chờ duyệt** nội dung + album 2 ảnh thật. Không dùng `VanPhong.jpg` (lộ thông tin cá nhân học viên trên biên bản).
 2. Địa chỉ mới "Nhà văn hóa thôn 18" và hotline 0978 639 199 lấy từ bài gốc người dùng — đồng bộ với `context/business.md` nếu đây là địa chỉ chính thức.
 3. Đăng xong thì đánh dấu "Đã đăng" ở bảng trên.
+
+---
+
+# Bài lẻ từ topic-bank
+
+| # | Chủ đề | Nền tảng | Định dạng | Ảnh | Trạng thái |
+|---|---|---|---|---|---|
+| [40](../posts/bai-40/noi-dung.md) | Bằng A1 lái được xe 150cc không? (topic-bank #1, video liên quan: [video-01](../videos/video-01/kich-ban.md)) | Fanpage / Zalo OA | Infographic so sánh 2 cột | Chưa viết prompt — chờ duyệt định dạng | Chờ duyệt + xác minh văn bản gốc |

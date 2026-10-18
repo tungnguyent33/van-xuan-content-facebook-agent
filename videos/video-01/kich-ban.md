@@ -3,7 +3,7 @@
 - Chủ đề topic-bank: #1 — Bằng A1 cũ có được lái xe 150cc không?
 - Format: Đúng hay sai?
 - Thời lượng dự kiến: 45 giây
-- Bài Fanpage liên quan: (chưa có — gợi ý viết kèm 1 bài giải đáp và sửa bài 05 đang ghi A1 "dưới 175cc")
+- Bài Fanpage liên quan: posts/bai-40/noi-dung.md
 
 ## Nguồn xác minh
 - Văn bản gốc: Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15 (hiệu lực 01/01/2025),

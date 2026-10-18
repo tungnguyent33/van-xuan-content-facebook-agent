@@ -30,7 +30,7 @@ luận còn nhỏ; điểm sẽ ổn định hơn khi chạy đủ nguồn theo 
 - **Link nguồn:** https://www.youtube.com/watch?v=tbLPBVzuPOQ · https://www.otofun.net/threads/hoc-bang-lai-a1-cho-xe-may-175cm.1957779/ · https://thuvienphapluat.vn/hoi-dap-phap-luat/nguoi-lai-xe-150cc-tro-len-van-duoc-su-dung-bang-lai-xe-hang-a1-khi-nao-138030092.html
 - **Nguồn chính thức cần xác minh:** Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, Điều 57 khoản 1 điểm a (A1 đến 125 cm³ hoặc điện đến 11 kW) và Điều 89 (bằng cấp trước 01/01/2025 dùng tiếp theo thời hạn; A1 cũ khi đổi được sang hạng A với hạn chế dưới 175 cm³). Đã đối chiếu 2 nguồn thứ cấp: [LuatVietnam](https://luatvietnam.vn/giao-thong/co-dung-tu-01-01-2025-di-xe-tren-125cm3-phai-thi-lai-bang-lai-863-98608-article.html), [Thư viện pháp luật](https://thuvienphapluat.vn/lao-dong-tien-luong/tai-xe-co-bang-lai-xe-a1-chay-duoc-xe-gi-58686.html). Cần mở văn bản gốc trên vbpl.vn trước khi đăng.
 - **Định dạng gợi ý:** video "Đúng hay sai?" (đúng kịch bản mẫu ở `docs/dinh-huong-phat-trien-agent.md` mục 5) và bài Fanpage giải đáp; nhân tiện sửa bài 05 đang ghi A1 "dưới 175cc".
-- **Đã dùng ở:** videos/video-01/kich-ban.md (2026-10-18)
+- **Đã dùng ở:** videos/video-01/kich-ban.md (2026-10-18) · posts/bai-40/noi-dung.md (2026-10-18)
 
 ## 2. Xem video mẹo là thi đậu, còn cần đi học không?
 - **Trạng thái:** mới · **Điểm:** 70 (hot 25 · tranh cãi 14 · liên quan 22 · an toàn 9)
