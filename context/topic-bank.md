@@ -10,7 +10,7 @@ luận còn nhỏ; điểm sẽ ổn định hơn khi chạy đủ nguồn theo 
 
 | # | Chủ đề | Điểm | Hot | Tranh cãi | Liên quan | An toàn | Định dạng gợi ý | Trạng thái |
 |---|---|---|---|---|---|---|---|---|
-| 1 | Bằng A1 cũ có được lái xe 150cc không? | 76 | 26 | 12 | 25 | 13 | Video "Đúng hay sai?" + bài Fanpage | mới |
+| 1 | Bằng A1 cũ có được lái xe 150cc không? | 76 | 26 | 12 | 25 | 13 | Video "Đúng hay sai?" + bài Fanpage | đã dùng |
 | 2 | Xem video mẹo là thi đậu, còn cần đi học không? | 70 | 25 | 14 | 22 | 9 | Video "Hai phe tranh luận" | mới |
 | 3 | Học xong phải chờ bao lâu mới được thi, trượt thì bao lâu thi lại? | 63 | 14 | 22 | 18 | 9 | Bài Fanpage hỏi đáp + video "Trả lời bình luận" | mới |
 | 4 | Đổi bằng giấy sang thẻ PET online: có bắt buộc không, kẹt ở bước nào? | 54 | 13 | 9 | 22 | 10 | Carousel hướng dẫn + video "1 phút luật mới" | mới |
@@ -23,14 +23,14 @@ luận còn nhỏ; điểm sẽ ổn định hơn khi chạy đủ nguồn theo 
 | 11 | Bỏ thi mô phỏng: dễ hơn hay khó hơn? | 30 | 10 | 3 | 5 | 12 | (bỏ qua: chỉ áp dụng ô tô) | mới |
 
 ## 1. Bằng A1 cũ có được lái xe 150cc không?
-- **Trạng thái:** mới · **Điểm:** 76 (hot 26 · tranh cãi 12 · liên quan 25 · an toàn 13)
+- **Trạng thái:** đã dùng · **Điểm:** 76 (hot 26 · tranh cãi 12 · liên quan 25 · an toàn 13)
 - **Phân loại bình luận (n = 4 có nội dung, còn lại là cảm ơn):** đồng ý 0 · phản đối 0 · hỏi thêm 3 · kể trải nghiệm 1. Tranh cãi chủ yếu thấy ở tiêu đề bài báo, diễn đàn ("Học bằng lái A1 cho xe máy <175cm!!!") và câu hỏi lặp lại, chưa thấy hai phe cãi nhau trong bình luận.
 - **Điểm tranh cãi:** Phe A nghĩ bằng A1 nào cũng chỉ lái được xe dưới 125cc theo luật mới, nên ai đi xe 150cc phải thi lại. Phe B nghĩ bằng A1 cấp trước 2025 vẫn lái được xe dưới 175cc. Theo các nguồn đã đối chiếu, phe B đúng với bằng cấp trước 01/01/2025; bằng A1 cấp từ 2025 chỉ đến 125cc.
 - **Bình luận tiêu biểu (đã ẩn danh):** "Hạng A theo quy định mới từ 2025 là bao nhiêu câu, thực hành chạy xe số hay xe côn?" · "Bằng A1 cũ bị hỏng, mất thì đổi sang hạng A hay A1 mẫu mới?" (tiêu đề video, 31 bình luận) · "Thi A1 chạy xe dưới 125cc, lúc thi xe của trung tâm là xe số hả?"
 - **Link nguồn:** https://www.youtube.com/watch?v=tbLPBVzuPOQ · https://www.otofun.net/threads/hoc-bang-lai-a1-cho-xe-may-175cm.1957779/ · https://thuvienphapluat.vn/hoi-dap-phap-luat/nguoi-lai-xe-150cc-tro-len-van-duoc-su-dung-bang-lai-xe-hang-a1-khi-nao-138030092.html
 - **Nguồn chính thức cần xác minh:** Luật Trật tự, an toàn giao thông đường bộ số 36/2024/QH15, Điều 57 khoản 1 điểm a (A1 đến 125 cm³ hoặc điện đến 11 kW) và Điều 89 (bằng cấp trước 01/01/2025 dùng tiếp theo thời hạn; A1 cũ khi đổi được sang hạng A với hạn chế dưới 175 cm³). Đã đối chiếu 2 nguồn thứ cấp: [LuatVietnam](https://luatvietnam.vn/giao-thong/co-dung-tu-01-01-2025-di-xe-tren-125cm3-phai-thi-lai-bang-lai-863-98608-article.html), [Thư viện pháp luật](https://thuvienphapluat.vn/lao-dong-tien-luong/tai-xe-co-bang-lai-xe-a1-chay-duoc-xe-gi-58686.html). Cần mở văn bản gốc trên vbpl.vn trước khi đăng.
 - **Định dạng gợi ý:** video "Đúng hay sai?" (đúng kịch bản mẫu ở `docs/dinh-huong-phat-trien-agent.md` mục 5) và bài Fanpage giải đáp; nhân tiện sửa bài 05 đang ghi A1 "dưới 175cc".
-- **Đã dùng ở:**
+- **Đã dùng ở:** videos/video-01/kich-ban.md (2026-10-18)
 
 ## 2. Xem video mẹo là thi đậu, còn cần đi học không?
 - **Trạng thái:** mới · **Điểm:** 70 (hot 25 · tranh cãi 14 · liên quan 22 · an toàn 9)

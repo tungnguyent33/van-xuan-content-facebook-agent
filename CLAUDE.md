@@ -75,6 +75,8 @@ chủ đề nào có hai luồng ý kiến trái ngược (luật mới, thi c�
 - `context/image/` — ảnh thật để dùng khi viết bài cần hình người/cơ sở
 - `reference/` — ảnh mẫu infographic, carousel, bài viết mẫu để bám theo phong cách
 - `posts/` — nơi lưu kết quả, mỗi bài một thư mục con (`bai-XX/noi-dung.md`)
+- `videos/` — kịch bản TikTok/Reels, mỗi video một thư mục con (`video-XX/kich-ban.md`, gồm bảng cảnh, caption TikTok/Reels, ghi chú quay, checklist)
+- `context/topic-bank.md` — chủ đề tranh cãi đã chấm điểm + trạng thái (`mới` / `cần duyệt` / `đã dùng`); `context/topic-candidates.json` — cụm chủ đề điểm thô do script sinh
 - **Quy tắc Copy-ready**: Nội dung bài viết trong `noi-dung.md` **TUYỆT ĐỐI KHÔNG** dùng dấu trích dẫn `>` ở đầu dòng, để người dùng chỉ cần chọn văn bản và copy-paste đăng ngay lên Fanpage/Zalo mà không cần tự xóa ký tự thừa.
 - `output/` — dashboard tổng hợp
 - `plans/` — kế hoạch nội dung theo tuần/tháng
@@ -89,6 +91,8 @@ chủ đề nào có hai luồng ý kiến trái ngược (luật mới, thi c�
 - `/create-plan` — lên kế hoạch nội dung theo tuần/tháng
 - `/create-10-post` — sản xuất 10 bài viết + đề xuất định dạng ảnh, chờ duyệt trước khi viết prompt ảnh Gemini
 - `/create-1-post` — sản xuất 1 bài viết lẻ (theo chủ đề yêu cầu hoặc bài tiếp theo trong kế hoạch) + prompt ảnh Gemini
+- `/create-video-script [chủ đề | số trong topic-bank]` — viết 1 kịch bản TikTok/Reels (skill `video-scripting.md`), lưu `videos/video-XX/kich-ban.md`, đánh dấu chủ đề `đã dùng`
+- `/create-5-video` — đề xuất 5 ý tưởng video từ topic-bank, **DỪNG chờ duyệt**, rồi mới viết chi tiết từng kịch bản
 - `/find-topics` — (hỏi trước khi crawl vì tốn tín dụng) thu thập đa nguồn → `scripts/score-topics.js` → skill `topic-scoring.md` chấm điểm, cập nhật `context/topic-bank.md`
 
 > **Trùng lặp cần dọn:** `.claude/commands/create-post.md` hiện có nội dung **giống hệt**
