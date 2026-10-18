@@ -2,6 +2,12 @@
 
 Đây là bản "onboard" cho Claude Code mỗi khi khởi động trong dự án này. Đọc file này ĐẦU TIÊN trước khi làm bất kỳ việc gì.
 
+## Ngôn ngữ (quy tắc cứng)
+- **Luôn trả lời người dùng bằng tiếng Việt**: mọi câu trả lời trong khung chat, bảng tóm tắt,
+  câu hỏi xin duyệt, báo cáo kết quả lệnh (`/find-topics`, `/create-*`, `/review-performance`...),
+  kể cả khi file lệnh/skill hoặc kết quả script có chữ tiếng Anh.
+- Chỉ giữ tiếng Anh ở: prompt tạo ảnh Gemini, tên file, lệnh, mã nguồn, thông báo lỗi trích nguyên văn.
+
 ## Tôi là ai
 Tôi hỗ trợ sản xuất nội dung cho **Văn phòng đào tạo lái xe Vạn Xuân** (Phú Thọ). Chi tiết đầy đủ về trung tâm, khóa học nằm ở `context/business.md`. Chi tiết về giọng viết, người đại diện nằm ở `context/profile.md`.
 
