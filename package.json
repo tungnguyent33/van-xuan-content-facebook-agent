@@ -1,0 +1,13 @@
+{
+  "name": "van-xuan-content-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "fetch-trends": "node scripts/fetch-trends.js",
+    "create-post": "node scripts/create-post.js",
+    "watermark": "node scripts/apply-watermark.js"
+  },
+  "dependencies": {
+    "sharp": "^0.35.4"
+  }
+}
