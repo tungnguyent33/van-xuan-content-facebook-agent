@@ -144,7 +144,8 @@ async function main() {
       let items;
       if (mod.collect) {
         const result = await mod.collect({
-          keywords, sourceConfig, runActor, dryRun, fetchedAt, timeoutSeconds: sourceTimeout, keywordOverride
+          keywords, sourceConfig, runActor, dryRun, fetchedAt, timeoutSeconds: sourceTimeout, keywordOverride,
+          relevanceTerms: config.relevance_terms ?? []
         });
         items = result.items;
         runs.push(...result.runs);

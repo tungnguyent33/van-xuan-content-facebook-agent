@@ -1,9 +1,10 @@
 {
   "date": "2026-10-18",
-  "generated_at": "2026-10-18T14:21:41.265Z",
+  "generated_at": "2026-10-18T14:33:50.252Z",
   "sources_run": [
     "google",
-    "tiktok"
+    "tiktok",
+    "facebook"
   ],
   "errors": [],
   "runs": [
@@ -41,9 +42,105 @@
       },
       "dataset_items": 22,
       "at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "facebook/group",
+      "id": "PzvqvfRPRK7S0HrLC",
+      "actor": "apify/facebook-groups-scraper",
+      "status": "SUCCEEDED",
+      "usage_usd": 0.07100000000000001,
+      "charged_events": {
+        "post": 10,
+        "actor-start": 1,
+        "filter-applied": 10
+      },
+      "dataset_items": 10,
+      "at": "2026-10-18T14:33:50.252Z"
+    },
+    {
+      "source": "facebook/page",
+      "id": "5pPofkupbwLpobYYl",
+      "actor": "apify/facebook-posts-scraper",
+      "status": "SUCCEEDED",
+      "usage_usd": 0.07100000000000001,
+      "charged_events": {
+        "post": 10,
+        "actor-start": 1,
+        "filter-applied": 10
+      },
+      "dataset_items": 10,
+      "at": "2026-10-18T14:33:50.252Z"
+    },
+    {
+      "source": "facebook/comments",
+      "id": "ih7lHtJbwj74WS67T",
+      "actor": "apify/facebook-comments-scraper",
+      "status": "SUCCEEDED",
+      "usage_usd": 0.006,
+      "charged_events": {
+        "comment": 2,
+        "actor-start": 1,
+        "filter-applied": 0
+      },
+      "dataset_items": 2,
+      "at": "2026-10-18T14:33:50.252Z"
     }
   ],
   "items": [
+    {
+      "source": "facebook",
+      "type": "post",
+      "url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/",
+      "title": null,
+      "text": "Quả bằng lái xe quốc gia mà sai chính tả. Chịu khứa nào duyệt cái này nhỉ.\nChỗ \"Date of issue\"  đúng ra phải viết cách ra thế này đúng ko các thím. Hay mỗi cái của em bị viết sai nhỉ 😅",
+      "author_hidden": true,
+      "published_at": "2026-10-18T14:27:28.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": 2,
+        "shares": 0
+      },
+      "parent_url": null,
+      "keyword": "group:https://www.facebook.com/groups/onthigplxotomoto/",
+      "fetched_at": "2026-10-18T14:33:50.252Z"
+    },
+    {
+      "source": "facebook",
+      "type": "comment",
+      "url": "https://www.facebook.com/groups/onthigplxotomoto/posts/2493769767696810/?comment_id=2494017484338705",
+      "title": null,
+      "text": "Của mình có cách ra",
+      "author_hidden": true,
+      "published_at": "2026-10-18T14:33:11.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/",
+      "keyword": "group:https://www.facebook.com/groups/onthigplxotomoto/",
+      "fetched_at": "2026-10-18T14:33:50.252Z"
+    },
+    {
+      "source": "facebook",
+      "type": "comment",
+      "url": "https://www.facebook.com/groups/onthigplxotomoto/posts/2493769767696810/?comment_id=2494017924338661",
+      "title": null,
+      "text": "Nay mới thấy",
+      "author_hidden": true,
+      "published_at": "2026-10-18T14:33:40.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/",
+      "keyword": "group:https://www.facebook.com/groups/onthigplxotomoto/",
+      "fetched_at": "2026-10-18T14:33:50.252Z"
+    },
     {
       "source": "tiktok",
       "type": "video",
