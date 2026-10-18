@@ -3,7 +3,7 @@
 Đây là bản "onboard" cho Claude Code mỗi khi khởi động trong dự án này. Đọc file này ĐẦU TIÊN trước khi làm bất kỳ việc gì.
 
 ## Tôi là ai
-Tôi hỗ trợ sản xuất nội dung cho **Trung tâm đào tạo lái xe Phú Thọ – chi nhánh Vạn Xuân**. Chi tiết đầy đủ về trung tâm, khóa học nằm ở `context/business.md`. Chi tiết về giọng viết, người đại diện nằm ở `context/profile.md`.
+Tôi hỗ trợ sản xuất nội dung cho **Văn phòng đào tạo lái xe Vạn Xuân** (Phú Thọ). Chi tiết đầy đủ về trung tâm, khóa học nằm ở `context/business.md`. Chi tiết về giọng viết, người đại diện nằm ở `context/profile.md`.
 
 ## Nền tảng ưu tiên (chỉnh theo thực tế)
 1. Fanpage Facebook
@@ -28,7 +28,23 @@ Tôi hỗ trợ sản xuất nội dung cho **Trung tâm đào tạo lái xe Ph�
 ## Chủ đề PHẢI tránh
 - Cam kết đậu 100%
 - So sánh hạ thấp trung tâm khác
-- Thông tin luật chưa được xác minh
+- Thông tin luật chưa được xác minh (danh sách điểm đang chờ xác minh: `context/business.md`
+  mục "Thông tin chưa xác minh")
+
+## Khối liên hệ chuẩn (quy tắc cứng)
+- **Mọi bài viết** (`posts/bai-XX/noi-dung.md`, mọi nền tảng: Fanpage, Zalo OA, group, website)
+  và **mọi kịch bản video** (phần caption TikTok/Reels) PHẢI kết thúc bằng khối liên hệ chuẩn
+  trong `context/business.md` mục "Khối liên hệ chuẩn", **chép nguyên văn** 4 dòng: tên gọi,
+  địa chỉ, hotline/Zalo, hashtag cố định. Không viết lại, không rút gọn, không đổi định dạng số
+  điện thoại.
+- Chỉ được thêm tối đa 3 hashtag theo chủ đề vào cuối dòng hashtag; không bỏ hashtag cố định.
+- Trong thân bài và lời thoại/chữ trên màn hình video, nếu nhắc tên gọi, số điện thoại, địa chỉ
+  thì dùng đúng như trong khối — không dùng các phiên bản cũ (bài 01–39 đang lệch nhau).
+- Khối này **ưu tiên hơn** mọi chỗ khác đang ghi thông tin liên hệ/ký tên kiểu cũ (ví dụ
+  "hotline 0823279999" trong `.claude/commands/create-1-post.md`, câu ký tên/CTA mẫu trong
+  `context/voice-analysis.md`).
+- Trước khi lưu bài/kịch bản, tự kiểm tra: khối có mặt, khớp từng ký tự với `business.md`. Nếu
+  người dùng đổi thông tin liên hệ, chỉ sửa ở `business.md`, không sửa rải rác trong bài.
 
 ## Cấu trúc dữ liệu (đọc trước khi viết bài)
 - `context/` — thông tin nền (trung tâm, khóa học, chiến lược, đối tượng học viên, giọng văn)
@@ -39,10 +55,10 @@ Tôi hỗ trợ sản xuất nội dung cho **Trung tâm đào tạo lái xe Ph�
 - `output/` — dashboard tổng hợp
 - `plans/` — kế hoạch nội dung theo tuần/tháng
 
-> **Trạng thái hiện tại:** tất cả file trong `context/` (`business.md`, `profile.md`,
-> `strategy.md`, `icp.md`, `voice-analysis.md`, `matrix.md`) vẫn là template trống chưa điền.
-> Nếu chưa chạy `/init-context`, ĐỪNG tự bịa số liệu/thông tin để lấp vào các mục còn trống —
-> hỏi người dùng hoặc để nguyên placeholder.
+> **Trạng thái hiện tại:** `business.md`, `profile.md`, `strategy.md`, `icp.md`,
+> `voice-analysis.md` đã có nội dung nhưng còn nhiều mục "(chưa có)"; `matrix.md` vẫn trống.
+> ĐỪNG tự bịa số liệu/thông tin để lấp vào các mục còn trống — hỏi người dùng hoặc để nguyên
+> placeholder.
 
 ## Các lệnh có sẵn trong dự án này
 - `/init-context` — nạp dữ liệu ban đầu, tự sinh các file trong `context/` (chạy trước tiên)
@@ -69,8 +85,9 @@ Trước khi viết prompt ảnh, luôn dừng lại chờ người dùng xác n
 đây là quy tắc cứng, không được bỏ qua dù người dùng không nhắc lại.
 
 ## Biến môi trường (`.env`, copy từ `.env.example`, không commit)
-- `APIFY_API_TOKEN` — dùng trong `scripts/fetch-trends.js`, được các lệnh `/create-1-post`,
-  `/create-10-post`, `/create-plan`, `/init-context` tự động gọi trước khi lên ý tưởng/viết bài.
+- `APIFY_API_TOKEN` — đọc bởi `scripts/lib/apify.js` (gửi qua header, không đưa lên URL), dùng
+  khi `scripts/fetch-trends.js` chạy. Script này được `/create-1-post`, `/create-post`,
+  `/create-10-post` và skill `content-ideation` gọi (`/create-plan`, `/init-context` không gọi).
 
 ## Script Node hỗ trợ (`scripts/`, chạy qua `npm run ...` hoặc `node scripts/...`)
 Dự án chủ yếu là cấu hình lệnh (`.claude/commands/`) và skill (`.claude/skills/`) cho Claude
@@ -80,10 +97,21 @@ không có bước build, không có lint/test.
 
 | Script | Chạy bằng | Việc gì |
 |---|---|---|
-| `scripts/fetch-trends.js` | `npm run fetch-trends` | Gọi Apify (Google Search Scraper) cào tin tức/luật giao thông mới nhất → ghi đè `context/trends.md`. Tự động chạy trong `/create-1-post`, `/create-10-post`, `/create-plan`, `/init-context`. |
+| `scripts/fetch-trends.js` | `npm run fetch-trends` · thử: `npm run fetch-trends:dry` | File điều phối: đọc `config/trend-sources.json`, chạy các nguồn đang bật, gộp + khử trùng theo url → lưu `context/trends/YYYY-MM-DD.json` (gộp nếu chạy nhiều lần trong ngày) và sinh lại `context/trends.md` dạng tóm tắt cho các lệnh cũ. Tham số: `--dry-run` (in input, không gọi API, không ghi file), `--source=<id>` (chạy cả nguồn đang tắt), `--keyword="..."`, `--limit=N`, `--set=a.b=giá_trị` (ghi đè khóa cấu hình nguồn, lặp lại được). In chi phí USD từng run và lưu vào mục `runs` của file JSON. Lỗi thì exit 1; không nguồn nào thành công thì giữ nguyên file cũ. Được `/create-1-post`, `/create-post`, `/create-10-post`, skill `content-ideation` gọi. |
+| `config/trend-sources.json` | (cấu hình) | Danh sách nguồn (`enabled`, `actor`, `input`, `max_results_per_keyword`, `keyword_groups`, `max_charge_usd` = trần chi phí mỗi run) và 4 nhóm từ khóa: `thi_bang`, `luat_moi`, `cap_doi`, `dia_phuong`. Nguồn `google` đang bật; nguồn `tiktok` đang **tắt** (tốn tín dụng mỗi lần các lệnh `/create-*` gọi script) — chạy riêng hằng tuần: `node scripts/fetch-trends.js --source=tiktok`. |
+| `scripts/sources/<module>.js` | (gọi từ `fetch-trends.js`) | Mỗi nguồn 1 file. Nguồn 1 bước xuất `buildInput(keywords, sourceConfig)` + `normalize(rawItems, sourceConfig, fetchedAt)` (`google.js`). Nguồn nhiều bước xuất `collect({...})` (`tiktok.js`: `clockworks/tiktok-scraper` tìm theo từ khóa + hashtag, chỉ giữ video ≤ `max_age_days` ngày và ngôn ngữ trong `languages`; rồi `clockworks/tiktok-comments-scraper` lấy bình luận + trả lời cho `comments.max_videos` video có tỷ lệ bình luận/view cao nhất). Thêm nguồn = thêm file + 1 mục trong config. |
+| `scripts/lib/apify.js` | (thư viện) | `runActor(actorId, input, {timeoutSeconds, dryRun, maxChargeUsd})` → `{ items, run }`: khởi động run, chờ xong, đọc dataset (không dùng `run-sync` vì giới hạn 300 giây và không trả chi phí). Đọc token từ `.env`, gửi qua header, báo lỗi theo mã HTTP (401 token sai, 402 hết tín dụng, 404 sai actor...) và trạng thái run (FAILED, TIMED-OUT...). |
+| `scripts/clean-all-quotes.js` | `node scripts/clean-all-quotes.js` | Xoá dấu `>` đầu dòng trong mọi `posts/*/noi-dung.md` (quy tắc Copy-ready). |
 | `scripts/create-post.js` | `npm run create-post -- [chủ đề]` | **Chỉ tạo thư mục** `posts/bai-XX/` tiếp theo (tự tăng số) — KHÔNG viết nội dung. Dùng khi muốn giữ chỗ trước rồi mới nhờ AI viết tiếp qua `/create-1-post`. |
 | `scripts/apply-watermark.js` | `npm run watermark -- <file-or-folder>` | Ghép `context/image/logo-van-xuan.png` vào góc trên-trái của ảnh (đè trực tiếp lên file gốc) bằng `sharp`. Chạy sau khi tải ảnh do Gemini tạo về, trước khi đăng. |
 | `scripts/create-logo.js` | `node scripts/create-logo.js` | Sinh file `context/image/logo-van-xuan.png` từ SVG dựng sẵn trong code. Đã chạy 1 lần — chỉ chạy lại nếu cần đổi thiết kế logo. |
+
+Item chuẩn hóa trong `context/trends/*.json` (mọi nguồn dùng chung): `{ source, type:
+"post"|"video"|"comment"|"article", url, title, text, author_hidden: true, published_at, metrics:
+{views, likes, comments, shares}, parent_url, keyword, fetched_at }`. Không lưu tên, ảnh đại diện
+người dùng — nguồn mới phải bỏ các trường này ngay trong `normalize`. TikTok: link video lưu dạng
+`https://www.tiktok.com/@/video/<id>` (bỏ tên người đăng), `@tên` trong nội dung bị che thành
+`@…`; bình luận có `url` = link video + `?comment_id=<id>`, `parent_url` = link video.
 
 > Vì `apply-watermark.js` ghi đè trực tiếp lên ảnh gốc (không giữ bản chưa ghép logo), cân nhắc
 > giữ 1 bản sao ảnh gốc trước khi chạy nếu muốn thử lại vị trí/kích thước logo.

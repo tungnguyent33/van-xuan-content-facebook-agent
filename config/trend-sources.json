@@ -1,0 +1,80 @@
+{
+  "_ghi_chu": "Cấu hình nguồn thu thập xu hướng cho scripts/fetch-trends.js. Thêm nguồn mới: tạo scripts/sources/<module>.js (xuất buildInput + normalize), rồi thêm 1 phần tử vào 'sources' với module trùng tên file. Bộ từ khóa theo docs/dinh-huong-phat-trien-agent.md mục 3.",
+  "defaults": {
+    "timeout_seconds": 300
+  },
+  "keyword_groups": {
+    "thi_bang": [
+      "thi bằng A1",
+      "thi bằng lái xe máy",
+      "thi A1 trượt",
+      "sa hình A1",
+      "thi bằng xe côn",
+      "câu điểm liệt"
+    ],
+    "luat_moi": [
+      "thông tư 108/2026",
+      "bỏ thi mô phỏng",
+      "11 tình huống thi xe máy",
+      "bằng lái hết hạn",
+      "trừ điểm bằng lái"
+    ],
+    "cap_doi": [
+      "đổi bằng lái PET",
+      "mất bằng lái làm lại",
+      "bằng A1 cũ lái xe 150cc"
+    ],
+    "dia_phuong": [
+      "học lái xe Phú Thọ",
+      "thi bằng lái Phú Thọ",
+      "Vạn Xuân Phú Thọ"
+    ]
+  },
+  "sources": [
+    {
+      "id": "google",
+      "enabled": true,
+      "module": "google",
+      "actor": "apify/google-search-scraper",
+      "keyword_groups": ["thi_bang", "luat_moi", "cap_doi", "dia_phuong"],
+      "max_results_per_keyword": 5,
+      "input": {
+        "maxPagesPerQuery": 1,
+        "languageCode": "vi",
+        "countryCode": "vn"
+      }
+    },
+    {
+      "id": "tiktok",
+      "_ghi_chu": "Đang TẮT: các lệnh /create-* gọi fetch-trends mỗi lần viết bài, bật nguồn này sẽ tốn tín dụng mỗi lần. Chạy riêng hằng tuần bằng: node scripts/fetch-trends.js --source=tiktok",
+      "enabled": false,
+      "module": "tiktok",
+      "actor": "clockworks/tiktok-scraper",
+      "comments_actor": "clockworks/tiktok-comments-scraper",
+      "keyword_groups": ["thi_bang", "luat_moi", "cap_doi", "dia_phuong"],
+      "hashtags": ["#thibanglaixe", "#thia1", "#banglaixemay", "#sahinh", "#luatgiaothong"],
+      "max_results_per_keyword": 10,
+      "max_age_days": 60,
+      "languages": ["vi", "un"],
+      "timeout_seconds": 600,
+      "max_charge_usd": { "video": 1.5, "comments": 1.0 },
+      "video_input": {
+        "searchSection": "/video",
+        "videoSearchDateFilter": "LAST_3_MONTHS",
+        "excludePinnedPosts": true,
+        "shouldDownloadVideos": false,
+        "shouldDownloadCovers": false,
+        "shouldDownloadAvatars": false,
+        "shouldDownloadMusicCovers": false,
+        "shouldDownloadSlideshowImages": false
+      },
+      "comments": {
+        "max_videos": 10,
+        "max_per_video": 50,
+        "max_replies_per_comment": 5,
+        "min_views": 1000
+      },
+      "comment_input": {}
+    }
+  ]
+}

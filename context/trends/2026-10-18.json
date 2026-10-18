@@ -1,0 +1,534 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T14:21:41.265Z",
+  "sources_run": [
+    "google",
+    "tiktok"
+  ],
+  "errors": [],
+  "runs": [
+    {
+      "source": "tiktok/video",
+      "id": "UeBaEgps1xoCXHHC4",
+      "actor": "clockworks/tiktok-scraper",
+      "status": "SUCCEEDED",
+      "usage_usd": 0.026,
+      "charged_events": {
+        "result": 5,
+        "filter-applied": 5,
+        "popularity-filter-applied": 0,
+        "follower-dataset-item": 0,
+        "mobile-filter-sorting-applied": 0,
+        "video-download": 0,
+        "comment-dataset-item": 0,
+        "scrape-as-in-country": 0,
+        "transcription-minute": 0,
+        "ai-video-description": 0,
+        "ai-video-summary": 0,
+        "actor-start": 1
+      },
+      "dataset_items": 5,
+      "at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok/comments",
+      "id": "vpgA3SZcRotAzdA9c",
+      "actor": "clockworks/tiktok-comments-scraper",
+      "status": "SUCCEEDED",
+      "usage_usd": 0.0275,
+      "charged_events": {
+        "result": 22
+      },
+      "dataset_items": 22,
+      "at": "2026-10-18T14:21:41.265Z"
+    }
+  ],
+  "items": [
+    {
+      "source": "tiktok",
+      "type": "video",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "title": null,
+      "text": "Thành tựu đầu tiên sau 18 tuổi #ktxnyh #ctump #fyp ",
+      "author_hidden": true,
+      "published_at": "2026-09-05T14:27:15.000Z",
+      "metrics": {
+        "views": 14413,
+        "likes": 917,
+        "comments": 67,
+        "shares": 155
+      },
+      "parent_url": null,
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "video",
+      "url": "https://www.tiktok.com/@/video/7696888326711971092",
+      "title": null,
+      "text": "im lặng đi tổ 1 ",
+      "author_hidden": true,
+      "published_at": "2026-10-15T13:37:48.000Z",
+      "metrics": {
+        "views": 842,
+        "likes": 34,
+        "comments": 2,
+        "shares": 26
+      },
+      "parent_url": null,
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682293552063251208",
+      "title": null,
+      "text": "bả đẹp dữ thần😭",
+      "author_hidden": true,
+      "published_at": "2026-09-06T05:42:42.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": 3,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682311662917239560",
+      "title": null,
+      "text": "giỏii wee bà ơi chung ngành nè💓",
+      "author_hidden": true,
+      "published_at": "2026-09-06T06:52:58.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": 5,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682109863707984648",
+      "title": null,
+      "text": "bạn tui nhe",
+      "author_hidden": true,
+      "published_at": "2026-09-05T17:49:58.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": 3,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682385945660605192",
+      "title": null,
+      "text": "Để được cái source này chắc chạy ctr mệt lắm nè, chạy nấy ngày liền tới hơn 8h mới được về mà😅",
+      "author_hidden": true,
+      "published_at": "2026-09-06T11:41:15.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": 6,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682068467294487316",
+      "title": null,
+      "text": "bà nổi tiếng rồi tui mừng cho bà quá",
+      "author_hidden": true,
+      "published_at": "2026-09-05T15:09:21.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 2,
+        "comments": 3,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682234422452798216",
+      "title": null,
+      "text": "chung ngành bà ơi",
+      "author_hidden": true,
+      "published_at": "2026-09-06T01:53:24.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": 4,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682063523237053202",
+      "title": null,
+      "text": "chinh gái, học dỏi",
+      "author_hidden": true,
+      "published_at": "2026-09-05T14:50:02.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": 1,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682611303902675733",
+      "title": null,
+      "text": "xn49 chúc mừng đàn em k52 quá giỏi💖",
+      "author_hidden": true,
+      "published_at": "2026-09-07T02:15:59.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": 1,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682230345047999248",
+      "title": null,
+      "text": "ối xịn v cj",
+      "author_hidden": true,
+      "published_at": "2026-09-06T01:37:38.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": 1,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682231948949422855",
+      "title": null,
+      "text": "giỏi b Mỹ",
+      "author_hidden": true,
+      "published_at": "2026-09-06T01:43:43.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": 0,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682059710605935381",
+      "title": null,
+      "text": "để công khai đi",
+      "author_hidden": true,
+      "published_at": "2026-09-05T14:35:21.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": 1,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682293794033189650",
+      "title": null,
+      "text": "tui cảm ơnnnnnn",
+      "author_hidden": true,
+      "published_at": "2026-09-06T05:43:46.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682318371127968519",
+      "title": null,
+      "text": "bà lớp nào dạaa",
+      "author_hidden": true,
+      "published_at": "2026-09-06T07:19:03.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682251286813721352",
+      "title": null,
+      "text": "tôi với em chỉ là bạn ?",
+      "author_hidden": true,
+      "published_at": "2026-09-06T02:58:53.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682403464769061650",
+      "title": null,
+      "text": "có ngày tới gần 10h nữa ạaaaa",
+      "author_hidden": true,
+      "published_at": "2026-09-06T12:49:12.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682070828548702994",
+      "title": null,
+      "text": "cảm one cốt",
+      "author_hidden": true,
+      "published_at": "2026-09-05T15:18:23.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682251176167326471",
+      "title": null,
+      "text": "ông lớp nào daaaaaa",
+      "author_hidden": true,
+      "published_at": "2026-09-06T02:58:24.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682064994641150727",
+      "title": null,
+      "text": "yassss",
+      "author_hidden": true,
+      "published_at": "2026-09-05T14:55:46.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682615964752757522",
+      "title": null,
+      "text": "dạ em cảm ơn ạaaaa",
+      "author_hidden": true,
+      "published_at": "2026-09-07T02:34:00.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7682057655736618258?comment_id=7682251642418447111",
+      "title": null,
+      "text": "tớ cảm onnn",
+      "author_hidden": true,
+      "published_at": "2026-09-06T03:00:06.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7682057655736618258",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7696888326711971092?comment_id=7697248662222832405",
+      "title": null,
+      "text": "đúng 😂",
+      "author_hidden": true,
+      "published_at": "2026-10-16T12:56:17.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 0,
+        "comments": 1,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7696888326711971092",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "tiktok",
+      "type": "comment",
+      "url": "https://www.tiktok.com/@/video/7696888326711971092?comment_id=7697454473162212102",
+      "title": null,
+      "text": "😂",
+      "author_hidden": true,
+      "published_at": "2026-10-17T02:15:01.000Z",
+      "metrics": {
+        "views": null,
+        "likes": 1,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": "https://www.tiktok.com/@/video/7696888326711971092",
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:21:41.265Z"
+    },
+    {
+      "source": "google",
+      "type": "article",
+      "url": "https://hoclaixehcm.vn/thi-bang-lai-xe-may-a1-online/",
+      "title": "[2026] Thi Thử Bằng Lái Xe A1 - 250 Câu Hỏi Lý Thuyết ...",
+      "text": "Cấu trúc chuẩn bộ đề thi A1: · Thời gian: 19 phút. · Điều kiện Đạt: Trả lời đúng từ 21/25 câu và không sai câu liệt. · 01 câu: Điểm liệt (mất an toàn giao thông ...",
+      "author_hidden": true,
+      "published_at": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": null,
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:14:29.374Z"
+    },
+    {
+      "source": "google",
+      "type": "article",
+      "url": "https://daotaolaixehd.com.vn/thi-thu-bang-lai-xe-a1-truc-tuyen.html",
+      "title": "[ 2026] Thi thử bằng lái xe A1 trực tuyến",
+      "text": "Thi thử bằng lái xe A1 trực tuyến online mới nhất - Phần mềm đề sử dụng bộ đề 250 câu mới hiện nay & chuẩn nhất không cần dowload.",
+      "author_hidden": true,
+      "published_at": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": null,
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:14:29.374Z"
+    },
+    {
+      "source": "google",
+      "type": "article",
+      "url": "https://csgt.bocongan.gov.vn/index.php/trac-nghiem-gplx/de-thi-a1",
+      "title": "Đề Thi hạng A1 - Cục cảnh sát giao thông - Bộ Công an",
+      "text": "Đề Thi hạng A1. Số câu: 25 Điểm đậu: 21/25 Thời gian: 19 phút. Thông tin thí sinh. Họ và tên của bạn: Bắt đầu làm bài. Hướng dẫn làm bài. Đọc kỹ từng câu hỏi ...",
+      "author_hidden": true,
+      "published_at": null,
+      "metrics": {
+        "views": null,
+        "likes": null,
+        "comments": null,
+        "shares": null
+      },
+      "parent_url": null,
+      "keyword": "thi bằng A1",
+      "fetched_at": "2026-10-18T14:14:29.374Z"
+    }
+  ]
+}
