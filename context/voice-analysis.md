@@ -27,7 +27,7 @@ Thân thiện – trung lập, giống người quen làm ở trung tâm tư v�
 - "đồng hành cùng bạn từ ngày đăng ký tới khi nhận bằng"
 - "minh bạch học phí — không phát sinh chi phí ẩn"
 - "cập nhật đúng quy định hiện hành" (khi nói về luật/lệ phí)
-- Ký tên cuối bài dạng nhất quán, ví dụ: "— Vạn Xuân" hoặc "Trung tâm đào tạo lái xe Phú Thọ, chi nhánh Vạn Xuân"
+- Ký tên cuối bài: dùng **khối liên hệ chuẩn** trong `business.md` (dòng đầu "— Văn phòng đào tạo lái xe Vạn Xuân"), không dùng kiểu ký tên cũ.
 
 ## 6. Cụm từ / giọng điệu PHẢI tránh (đồng bộ với `CLAUDE.md`)
 - "bao đậu", "chắc chắn đậu 100%", "học nhanh không cần thi lý thuyết"
@@ -65,6 +65,22 @@ Câu hỏi học viên hay hỏi thật (lấy từ `business.md` mục FAQ) →
 Nhẹ nhàng, không thúc ép kiểu "chốt đơn ngay". Ưu tiên dẫn về kênh đã có trong `strategy.md`:
 - "Cần tư vấn thêm, nhắn Zalo OA hoặc để lại bình luận nhé."
 - "Theo dõi Fanpage để cập nhật lịch khai giảng mới nhất."
+
+## 9b. Ngân hàng CTA (xoay vòng — không dùng cùng kiểu ở 2 bài/video liên tiếp)
+Câu CTA đứng ngay trước khối liên hệ chuẩn. Chọn 1 kiểu, ghi tên kiểu vào bảng duyệt bài.
+
+| # | Kiểu | Mẫu câu (sửa cho hợp chủ đề) | Hợp với |
+|---|---|---|---|
+| 1 | Hỏi ý kiến | "Bạn thấy quy định này hợp lý không? Để lại bình luận cho mình biết nhé." | Chủ đề tranh cãi, luật mới |
+| 2 | Hỏi trải nghiệm | "Bạn từng trượt ở bài nào? Kể mình nghe để mình gợi ý cách tập." | Mẹo thi, lỗi trừ điểm |
+| 3 | Tag bạn bè | "Tag người bạn đang định thi bằng để cùng đọc nhé." | Mẹo, FAQ, thông báo |
+| 4 | Lưu bài | "Lưu bài lại, gần ngày thi mở ra xem lại một lượt." | Checklist, mẹo nhiều ý |
+| 5 | Giữ suất theo lịch thật | "Muốn kịp đợt thi <tháng/ngày thật trong business.md>, nhắn Zalo để mình giữ suất hồ sơ." — CHỈ dùng khi có lịch thật chưa qua | Thông báo lịch thi/khai giảng |
+| 6 | Học thử / đến xem sân | "Ghé sân tập Thôn 18 xem thử một buổi, nhắn trước để mình hẹn giờ." | Giới thiệu sân, giáo viên |
+| 7 | Nhận tài liệu qua Zalo | "Nhắn Zalo chữ \"TÀI LIỆU\" để mình gửi bộ câu hỏi ôn tập." — chỉ dùng khi trung tâm có tài liệu thật để gửi | Ôn lý thuyết, câu điểm liệt |
+| 8 | Hỏi riêng trường hợp | "Trường hợp của bạn khác? Nhắn Zalo, mình xem giấy tờ giúp." | Cấp đổi, cấp lại, hết hạn |
+
+Không dùng CTA thúc ép ("chốt ngay", "chỉ hôm nay", "số lượng có hạn" khi không có thật).
 
 ## 10. Ví dụ minh họa (bài mẫu theo giọng này)
 

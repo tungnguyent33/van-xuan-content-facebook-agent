@@ -1,0 +1,19 @@
+{
+  "_ghi_chu": "Kênh của chính trung tâm, dùng bởi scripts/fetch-own-stats.js và lệnh /review-performance. Để trống tiktok.profile nếu chưa có kênh TikTok (script sẽ bỏ qua).",
+  "days": 30,
+  "timeout_seconds": 600,
+  "facebook": {
+    "page_url": "https://www.facebook.com/hoclaixephutho/",
+    "page_actor": "apify/facebook-pages-scraper",
+    "posts_actor": "apify/facebook-posts-scraper",
+    "max_posts": 40,
+    "max_charge_usd": 0.5
+  },
+  "tiktok": {
+    "_ghi_chu": "GIÁ TRỊ TẠM: chưa có tên kênh TikTok (context/profile.md ghi 'TikTok: (chưa có)'). Điền username không có @, ví dụ \"daotaolaixevanxuan\".",
+    "profile": "",
+    "actor": "clockworks/tiktok-scraper",
+    "max_videos": 40,
+    "max_charge_usd": 0.5
+  }
+}

@@ -1,0 +1,2923 @@
+{
+  "generated_at": "2026-10-18T15:16:04.573Z",
+  "trends_file": "context/trends/2026-10-18.json",
+  "previous_file": null,
+  "note": "Điểm thô: hot (0–30) + tranh cãi (0–30), chuẩn hóa theo cụm cao nhất trong lần chạy. Độ liên quan (25) và an toàn (15) do skill topic-scoring chấm.",
+  "clusters": [
+    {
+      "name": "sa hình A1",
+      "sources": [
+        "google",
+        "youtube",
+        "forum",
+        "facebook"
+      ],
+      "item_count": 7,
+      "raw_score": {
+        "hot": 14,
+        "controversy": 30,
+        "total": 44
+      },
+      "stats": {
+        "rel_hot": 0.923,
+        "growth": null,
+        "total_engagement": 502,
+        "views": 7582,
+        "comment_count_reported": 202,
+        "comment_view_ratio": 0.02664,
+        "comments_collected": 90,
+        "reply_chains": 37,
+        "dispute_comments": 1,
+        "dispute_ratio": 0.011
+      },
+      "links": [
+        {
+          "url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/",
+          "source": "facebook",
+          "type": "post",
+          "title": "Có ai con gái học Bss mà nản như em k. Học ng nhà thu 2x.xxx tận 2025 mà tận gần 1 năm mới đc thi nh",
+          "metrics": {
+            "views": null,
+            "likes": 61,
+            "comments": 158,
+            "shares": 2
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XuKWcagmLys",
+          "source": "youtube",
+          "type": "video",
+          "title": "Giải mẹo sa hình mới nhất 2025 dành cho hạng a1 và hạng a",
+          "metrics": {
+            "views": 7218,
+            "likes": 130,
+            "comments": 44,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=cONdw8yOy1M",
+          "source": "youtube",
+          "type": "video",
+          "title": "SA HÌNH 6: Mẹo giải 100% câu hỏi Sa hình GPLX hạng A1 - Dễ hiểu, dễ nhớ nhất 2026.",
+          "metrics": {
+            "views": 364,
+            "likes": 17,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.tiktok.com/@anhzaidaylai/video/7557954104002219272",
+          "source": "google",
+          "type": "article",
+          "title": "Tổng hợp sa hình thi bằng lái xe máy hạng A",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://tuoitre.vn/video/mo-phong-11-bai-sat-hach-moi-khi-thi-bang-lai-xe-may-du-kien-ap-dung-tu-2028-200991.htm",
+          "source": "google",
+          "type": "article",
+          "title": "Mô phỏng 11 bài sát hạch mới khi thi bằng lái xe máy, dự kiến ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/quy-dinh-huong-dan-thi-cap-gplx-theo-sa-hinh-dien-tu-cam-ung.2077/",
+          "source": "forum",
+          "type": "post",
+          "title": "Quy định, hướng dẫn thi cấp GPLX theo sa hình điện tử (cảm ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/thi-truot-bang-lai-bao-lau-thi-lai.1929731/",
+          "source": "forum",
+          "type": "post",
+          "title": "[Luật] - Thi trượt bằng lái bao lâu thi lại? | Mạng xã hội OTOFUN",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": [
+        {
+          "text": "Xinh mình cũng hay lái ở đường do có xe nhà, mà vào hình gặp mấy cái lỗi toàn dừng k đúng vị trí🥲",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Sao k hỏi thầy làm thủ tục thí sinh tự do mà thi cho nhanh hè\n.10 ngày đc thi lại rồi",
+          "likes": 1,
+          "replies": 16,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "cố lên mình con gái Bss . mình đki từ t9/2025 mà đến t6/2026 mới đc tốt nghiệp. xong lỗi bằng A1 nên t10/2026 minh mới đc thi. mình đỗ lý thuyểt và sa hình. trượt đường trường. đang đợi ghép thi đường trường lại . 🥲 cho mình hỏi ghép thi lại lâu vậy ạ",
+          "likes": 1,
+          "replies": 10,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Bạn nào thiếu tự tin, tự lực hãy xin vía của mình may mắn hết xảy, hạt đập ăn liền, thi cái đỗ luôn và ngay nhé! Nhưng lưu ý phải học chăm chỉ và khổ luyện mới 100% nghe!",
+          "likes": 2,
+          "replies": 9,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Nhả vía cho b ^^ mình nữ thi số sàn đạt 100đ. Cố gắng lên đừng nản nhé",
+          "likes": 4,
+          "replies": 5,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Nhả vía b bss đỗ luôn nhen. Mình đki t4 t10 thi lụm bằng rồi",
+          "likes": 5,
+          "replies": 4,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Ủa hết 1 năm là phải thi lại lt thui chứ có học lại đâu b",
+          "likes": 0,
+          "replies": 6,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) chị (ẩn tên) cũng lỗi bằng A1 giống em đó (ẩn tên)",
+          "likes": 1,
+          "replies": 5,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) lệ phí bao nhiêu v bạn , với thường 1 tháng thì phải",
+          "likes": 1,
+          "replies": 4,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) bạn nhả vía cho mình thi sa hình nhé",
+          "likes": 1,
+          "replies": 4,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "mình nữ Bss dky 9/2025 tập sân khác rồi ra tập 4h chíp sân khác đây. mãi 7/2026 mới đc thi luật mới. mình học kỹ nên đi thi nhàn tênh. chỉ là rén vì ko đc tập đường trường nên phải chạy loăng quăng xin kinh nghiệm của mọi người. mình đỗ luôn lần 1 nhưng vẫn cay thầy vì lẽ ra phải đky cho mình đi học và thi sớm hơn trước khi đổi luật",
+          "likes": 0,
+          "replies": 4,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Đúng là có nhiều nơi nhiều tỉnh đang được thi lại nhanh hơn các tỉnh thành khác giống với thời gian trước đây, cách đây về trước thi cũng nhanh và ít đợi nhiều lâu quá ,do công tác tổ chức sát hạch của các tỉnh thành đó tốt phối hợp tốt với các trung tâm tại đó nên nhiều khi lại có ưu thế hơn nhiều tỉnh thành phố khác về vấn đề này",
+          "likes": 1,
+          "replies": 3,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "M lần 1 trượt sa hình lần 2 trượt đường trường đang chờ thi lại đường trường đây ạ",
+          "likes": 1,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) thầy cũng kiểu qua 2-3 tay ý b. Nên k chủ động. Mình phải tự ra trung tâm dki mới đc ý.",
+          "likes": 1,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) cần những thủ tục gì để làm thi sinh tự do vậy bạn hd mình với",
+          "likes": 1,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Kỹ năng yếu thì tập thêm, tâm lý chưa ss thì có bằng cũng k dám ra đường đâu. Chừng nào mà chạy sa hình như kiểu trong sân nhà mình may ra mới đỗ đc",
+          "likes": 0,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Đã hối hận vì học ss",
+          "likes": 0,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Ôi sao bạn giống tui thế khéo chung trường",
+          "likes": 0,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) thi lại hết b ạ, lúc mình đki là luật cũ nên đc tạch môn nào chỉ thi lại môn đó, nhưng nếu giờ huỷ kết quả bảo\nLưu đó thì mình thi lại tất",
+          "likes": 0,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) bạn am hiểu này tư vấn giúp, mình chưa sh mà nghe có ng nói sát hạch đc bảo lưu 5 năm, người thì nói 1 năm giống tốt nghiệp, rốt cuộc là mấy năm?",
+          "likes": 0,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) có thật hả chứ m gần 2 thg doi vẫn im re",
+          "likes": 1,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) chỗ mình muốn đăng kí thi lại nhanh mà trung tâm không nhận, mình có tự đăng ký thí sinh tự do như bạn bảo được không ạ",
+          "likes": 1,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Starfruit9999 xin vía b nha",
+          "likes": 1,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Starfruit9999 xin vía bác ơi bss đây",
+          "likes": 1,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) m xin via ạ mới nộp dki dc 1 tháng",
+          "likes": 1,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Thường 4 tháng là thi rồi.",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Xong đợt này phốt luôn cái trung tâm đi bạn. Làm ăn cẩu thả thật sự",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Đồng cảnh 2 lần tạch sa hình",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Cố lên bạn ơi. Thi khôngvai giỏi hết. Vấn đề phải bình tĩnh. Tự tin",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) vẫn chúc mừng b nha",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) trường có nhiều sân thế cơ à bạn? Mà sân khác thì chỉ khác điểm căn chứ cấu trúc nó vẫn giống nhau thôi nhỉ?",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) ở việt đức tầm 1 tháng dc thi lại nhug qtrong thầy của c có ghép cho c sớm k cơ",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) lỗi A1 là sao bạn nhỉ?",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "ở đâu mà thi lâu vậy b",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) hơi vất á b. Mình ban đầu học thấy cũng bth, nhưng đến khi tạch nhiều quá chán",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) giỏi vậy b",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) đường trường giờ nghe nói khó lắm",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Gặp thằng thầy đểu rồi",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) chỗ mình thi 1 tháng mới có 1 lần sh,vậy làm thi sinh tự do đem đi trường khác thi có đc nhanh không",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) chỗ mình 800k",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Người tham gia ẩn danh 556 trường mình thầy nói học sinh đông nên 1 tháng 4.5 đợt thi sát hạch.còn nếu trượt thì theo quy định của trường phải 2 tháng mới đc thi lại.còn nếu muốn nhanh hơn thì nộp thêm phí thí sinh thi tự do là sẻ đc thi sớm.",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) Đúng r b , nhưng ko phải tỉnh nào cũng nhanh được vài tuần đến dưới 2 tháng đâu , vấn đề là tùy từng khu vực tỉnh thành nào nữa chứ có nhiều nơi hoàn toàn không nhanh được đâu giống khu vực chỗ b tác giả bài viết áh , nhiều chỗ cũng kha khá đấy",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) pccc xuân mai nha",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên)  nhả vía m đã 100 điểm sh. Luyện tập chăm chỉ nhé m thi 3 năm mới đỗ số sàn. M mua xe tự đông nhưng chồng lỡ đăng ký học số sàn nên m phải cố giờ về lái tự động m cũng sợ mỗi khi phải ngồi lái số sàn.",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) mình có thầy rồi.chỉ cần nộp lệ phí thôi.còn mọi thứ thầy làm cho hết.thầy lo cho học viên lắm",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) vâng. em lỗi A1 mãi mới đc thi :((",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) thê này chưa biêt bjo thi 🤣🤣",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Lilinana chúc b đạt được điểm cao đậu đỗ như ý nha. Nhả vía b",
+          "likes": 1,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Vậy hả.vậy thì lâu quá hè.nơi mình 2 tháng mới thi mà thấy lâu.nên thầy làm cho thí sinh tự do 10 ngày sau thi lại luôn.chứ chờ vậy sợ quên hết thao tác và quên bài á",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) hhh chúng t cùng cố b an",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Gì vậy cha giá bss hơn 20x à",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Bò k ăn cỏ bò ngu",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) mình muốn xong để k còn dính tới ý",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) đây mình 1 năm mới đc thi, xg trượt đợi gần 1 năm nữa mới thi lại",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) tạch nhiều quá chán b ạ",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "thích_đạo_lý 1tr 7 hoặc 2tr á.mình hôm 23/9 thi trượt thầy làm thí sinh thi tự do 2/10 thi lại và đả đậu",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) trường mình thầy nói học sinh đông nên 1 tháng tổ chức 4.5 lần thi sát hạch á.mà đợt này đông hơn nửa vì họ sợ sang năm khó nên nộp hồ sơ nhiều.mình nộp thí sinh tự do nộp tại trường mình luôn á.đi trường khác sợ chờ đợi lâu",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) trung tâm mình học chỉ có sân thô (sân ko đủ điều kiện sát hạch) ,nên tập xe thầy ở đó. trước thi 3 ngày trung tâm sẽ đi thuê sân khác để sát hạch nên sẽ đc tập xe chip ở sân sh. đúng là chỉ khác điểm căn thôi. còn cấu trúc sẽ khác một chút. ví dụ có sân sẽ ghép dọc xong ra ghép ngang rồi mới ra ngã 4 rẽ trái về đường sắt. nhưng có sân sẽ ghép ngang gần cuối,sau ghép ngang là ngã 4 rẽ phả",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) bằng A1 của mình k tích hợp đc vài vneid . mình phải đi làm lại",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) thầy c cũng hẹn tầm 1 tháng",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Người tham gia ẩn danh 556 vậy hả.vậy thì lâu quá hè.mình nge nói chờ 2 tháng thấy lâu rồi.sợ lúc đó quên hết thao tác và quên bài.nê làm thí sinh tự do  cho nhanh.chứ chờ mà như bạn ấy nói thì lâu quá.",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) cảm ơn bạn",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) xv",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) xin mạng mày luôn chứ xin vía cc chứ vía",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) xin vía mà thi đậu được thì có mà thánh thần. do bản thân thôi",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) vậy hả.vậy thì k biết có đc k.vì thầy dạy mình làm cho.chứ theo quy định của trường thì phải 2 tháng sau mới thi lại",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) ra trung tâm thì phải theo trung tâm nên đợi lâu.nơi mình theo quy định thì 2 tháng sau mới đc thi lại á",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Người tham gia ẩn danh 813 b thi trường nào ạ",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Mk thi hùng vương",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) cảm ơn b nha. Xin vía b",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) có chứ mình thi trượt hôm 23/9 .nộp thí sinh thi tự do thi lại 2/10 thi rồi và đả có bằng",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) vẫn nhả vía thi đỗ lần thi tới nha b",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Người tham gia ẩn danh 136 bạn thử hỏi thầy xem có k",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) cố lên nha b ơi. Bình tĩnh là đc. Số 1 đi 10 số 2 đi 20 lần lượt như thế. Tớ chỉ bỏ 15m 3 số thôi. Còn lại theo hiệu lệnh là làm. Nhớ là tấp lề xe đi chậm nhớ về số phù hợp sau đó về N kéo phanh tay nha",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Lilinana cố lên nha . Khi học cũng sẽ có lúc nản nhưng cứ cố gắng là đc ^^",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) cảm ơn b",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) vía vía cc j. Học ngu thì chấp nhận.vía lol mà vía",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "Người tham gia ẩn danh 860 hãi",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) có đống lại tiền từ đầu ko ta",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) ủa bữa mình coi luật mới là phải thi sát hạch lại từ đầu thôi chứ ko phải học lại nè",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) ẹc lỗi dừng không đến vị trí dễ sửa mà",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) theo mình biết là kết quả sát hạch dc bảo lưu 1 năm. Niếu hết 1 năm là bạn phải thi lại từ đầu chứ ko cần học lại",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) kết quả bảo lưu chỉ đc 1 năm thôi .",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) hic cũng run lắm ấy. K nghĩ mình lm đc",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) mình có cần làm gì đâu.thầy dạy lái tự làm cho luôn ý.mình chỉ nộp phí thôi",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) mình học c1 tạch 2 lần đường trường, nói chung là lần 3 thì đậu mà cũng phải có",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) chị (ẩn tên) còn chưa được thi",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) ui. :(( c ấy tốt nghiệp lâu chưa c",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) tốt nghiệp tháng 8 em",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        },
+        {
+          "text": "(ẩn tên) khó cũng tại kĩ năng m chưa tốt ạ luyện tập thêm là ổn ạ",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2492635387810248/"
+        }
+      ]
+    },
+    {
+      "name": "bằng A1 cũ lái xe 150cc",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 6,
+      "raw_score": {
+        "hot": 30,
+        "controversy": 1.8,
+        "total": 31.8
+      },
+      "stats": {
+        "rel_hot": 3.857,
+        "growth": null,
+        "total_engagement": 3441,
+        "views": 372079,
+        "comment_count_reported": 182,
+        "comment_view_ratio": 0.00049,
+        "comments_collected": 22,
+        "reply_chains": 1,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=IG3_f_dkOeI",
+          "source": "youtube",
+          "type": "video",
+          "title": "250 câu hỏi lý thuyết lái xe MÔ TÔ A1, A (câu 1 - 50) Thầy Hải 0777.810.816",
+          "metrics": {
+            "views": 359977,
+            "likes": 3200,
+            "comments": 151,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=tbLPBVzuPOQ",
+          "source": "youtube",
+          "type": "video",
+          "title": "Bằng lái xe A1 cũ bị hỏng mất được đổi sang GPLX hạng A hay A1 mẫu mới",
+          "metrics": {
+            "views": 12102,
+            "likes": 37,
+            "comments": 31,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://shop2banh.vn/tu-van/tu-12025-bang-a1-cu-co-chay-duoc-xe-150cc-khong-5320.html?srsltid=AU7gw4XASRMruXcdY_IX17S_flo5T4mAqMWwlFdg9z1MQIoflqi-f6Vn",
+          "source": "google",
+          "type": "article",
+          "title": "Năm 2026, bằng A1 cũ có chạy được xe 150cc không?",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://thuvienphapluat.vn/hoi-dap-phap-luat/nguoi-lai-xe-150cc-tro-len-van-duoc-su-dung-bang-lai-xe-hang-a1-khi-nao-138030092.html",
+          "source": "google",
+          "type": "article",
+          "title": "Người lái xe 150cc trở lên vẫn được sử dụng bằng lái ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/moi-nguoi-danh-gia-the-nao-ve-cac-dong-xe-150cc-va-160cc.1948620/",
+          "source": "forum",
+          "type": "post",
+          "title": "Mọi người đánh giá thế nào về các dòng xe 150cc và 160cc",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/xin-tu-van-ve-shadown-150.1838427/",
+          "source": "forum",
+          "type": "post",
+          "title": "[Thảo luận] - Xin tư vấn về Shadown 150 | Mạng xã hội OTOFUN",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": [
+        {
+          "text": "Hạng A theo quy định mới từ 2025 là bao nhiêu câu vậy ạ, và nếu thực hành thì mình chạy xe số hay xe côn tay vậy ạ",
+          "likes": 14,
+          "replies": 3,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Chị này dạy rất dễ hiểu nhờ vậy mà mình đã thi đậu cảm ơn chị",
+          "likes": 16,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cảm ơn bạn đã chia ! Rất hữu ích cho những người đang học và chuẩn bị học, trong đó có mình!!!! ❤❤❤",
+          "likes": 7,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cảm ơn cô rất nhiều \nA DI ĐÀ PHẬT",
+          "likes": 3,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Chào em em đang dể hiểu quá cảm ơn em",
+          "likes": 2,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Giải thích rõ ràng dễ hiểu",
+          "likes": 1,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cảm ơn  cô giáo cô dạy chi  tiết và rễ hiểu",
+          "likes": 1,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cám ơn cô cô dậy rất dễ hiểu",
+          "likes": 1,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "OK e giảng rât rõ . Hãy .",
+          "likes": 1,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Mình cũng đang học, nghe cô giáo giảng càng hiểu hơn",
+          "likes": 1,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Dạ em xin cảm ơn trung tâm. Được biết thêm kiến thức mới. 👍",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Hay lắm ạ, chi tiết lý do đúng/ sai. Cảm ơn rất nhiều ạ 🎉",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cảm ơn em đã giải thích rất kỹ",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "bạn này giải thích dễ hiểu",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cháu cảm ơn cô, cô dạy dễ hiểu lắm ạ  .   chúc cô và gđ thật nhiều sức khỏe ạ ❤",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cảm ơn chị em nghe rất hiểu",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cảm ơn bạn bạn day rất dễ hiểu ạ",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Cảm ơn e gái . Quá có tâm luôn ❤❤",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Chị dạy rất dễ hiểu",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Rất hay và hữu ích ❤",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "Nhờ học e dậy dễ hiểu dễ nhớ.nẻn c mới thi đỗ rồi .cám ơn e",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        },
+        {
+          "text": "cảm ơn chị dạy chi tiết em đã đỗ 25/25 ạ",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=IG3_f_dkOeI"
+        }
+      ]
+    },
+    {
+      "name": "thi bằng A1",
+      "sources": [
+        "youtube",
+        "forum",
+        "google"
+      ],
+      "item_count": 5,
+      "raw_score": {
+        "hot": 25.5,
+        "controversy": 4.3,
+        "total": 29.8
+      },
+      "stats": {
+        "rel_hot": 3.035,
+        "growth": null,
+        "total_engagement": 4617,
+        "views": 384579,
+        "comment_count_reported": 259,
+        "comment_view_ratio": 0.00067,
+        "comments_collected": 20,
+        "reply_chains": 17,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=KfS8WtxzMw8",
+          "source": "youtube",
+          "type": "video",
+          "title": "FULL Mẹo lý thuyết lái xe A1 mới nhất - 250 câu hỏi Siêu Dễ 100% Thi Đậu - Thầy Chiến",
+          "metrics": {
+            "views": 245294,
+            "likes": 3400,
+            "comments": 231,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=lb-jEA25Ijc",
+          "source": "youtube",
+          "type": "video",
+          "title": "250 câu hỏi lý thuyết lái xe MÔ TÔ A1, A (câu 51-100) Thầy Hải 0777.810.816",
+          "metrics": {
+            "views": 138824,
+            "likes": 905,
+            "comments": 23,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ubdi3uHhG5k",
+          "source": "youtube",
+          "type": "video",
+          "title": "SA HÌNH 1: Mẹo giải 100% câu hỏi Sa hình GPLX hạng A1 - Dễ hiểu, dễ nhớ nhất 2026.",
+          "metrics": {
+            "views": 461,
+            "likes": 33,
+            "comments": 5,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/hoc-bang-lai-xe-may-a1.1939231/",
+          "source": "forum",
+          "type": "post",
+          "title": "Hết hạn - Học bằng lái xe máy A1 | Mạng xã hội OTOFUN",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://csgt.bocongan.gov.vn/index.php/trac-nghiem-gplx/de-thi-a1",
+          "source": "google",
+          "type": "article",
+          "title": "Đề Thi hạng A1 - Cục cảnh sát giao thông - Bộ Công an",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": [
+        {
+          "text": "Học hết mẹo thầy dậy trên video này là đậu a1 phải ko ạ",
+          "likes": 19,
+          "replies": 7,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "(ẩn tên) sách mẹo thì  gọi hoặc nhắn tin Zalo thầy (ẩn tên) 0389423799",
+          "likes": 7,
+          "replies": 9,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "em xem vd thầy 2 ngày, sáng nay e thi đậuu lunn, cám ơn rhaayf nhiều lắm",
+          "likes": 14,
+          "replies": 3,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Gặp câu có : Xe thô sơ - Vượt - Khổ (1) \nVạch - Dãi - Phần - Làn - Cơ giới (2) \n\nKhi thấy CSGT một tay trên bụp (3) Hai tay trên bụp (4) \n\nKhi thấy câu hỏi “gồm những” (3) cả hai ý trên\n\nCó 5 nhóm biển báo\n\nNếu thấy “trong khu dân cư” (1) “ngoài khu dân cư” (3) còn về đường hai chiều (2) \n\nKhi thấy câu trả lời 4 là “Ý” chọn (4) tất cả ý trên khi nào thấy hỏi vạch chọn (2)",
+          "likes": 16,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Cảm ơn thầy ,chúc thầy thật nhiều sức khỏe",
+          "likes": 3,
+          "replies": 2,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "thầy dạy qua hay quá tuyệt vời và nhiệt tình. cảm ơn thầy rất nhiều ạ",
+          "likes": 4,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Cảm ơn thầy rất nhiều. Thầy dạy hay quá",
+          "likes": 3,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Quá hay. Dễ hiểu",
+          "likes": 3,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Cảm ơn thầy rất nhiều .rhaayf dạy hay và dễ hiểu",
+          "likes": 2,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "hay dễ hiểu",
+          "likes": 2,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Thầy dạy rất hay em đang chuẩn bị thi mong đậu ạ",
+          "likes": 2,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Hay quá",
+          "likes": 2,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Mới thi đậu thật nha ae:), mẹo uy tín.",
+          "likes": 2,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "hêlo thầy nha mai em thi rồi đêm nay chắc phải xem mấy video của thầy cho nó chắc thôi",
+          "likes": 2,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Tuyệt vời chúc thầy thật nhiều sức khỏe ạ xin cảm ơn thầy ạ",
+          "likes": 1,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "hayyyy ạ \nem cảm ơn thầy nhiều ạ\nquá bổ ích luôn",
+          "likes": 1,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Hay qá",
+          "likes": 1,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "cảm ơn thầy ạ em mới thi 25/25",
+          "likes": 1,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "Sách mẹo đó còn áp dụng cho Luật của bầy giờ ko ạ?",
+          "likes": 1,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        },
+        {
+          "text": "hay",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=KfS8WtxzMw8"
+        }
+      ]
+    },
+    {
+      "name": "#thibanglaixe",
+      "sources": [
+        "tiktok"
+      ],
+      "item_count": 2,
+      "raw_score": {
+        "hot": 19.9,
+        "controversy": 3.3,
+        "total": 23.2
+      },
+      "stats": {
+        "rel_hot": 1.999,
+        "growth": null,
+        "total_engagement": 33147,
+        "views": 1153900,
+        "comment_count_reported": 733,
+        "comment_view_ratio": 0.00064,
+        "comments_collected": 20,
+        "reply_chains": 11,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.tiktok.com/@/video/7686056463860616468",
+          "source": "tiktok",
+          "type": "video",
+          "title": "Nam thi bằng lái hạng A   #daylaixetanson #thibanglaixea #thibanglaixe #thibanglaixemay #thibanglaix",
+          "metrics": {
+            "views": 1100000,
+            "likes": 28300,
+            "comments": 562,
+            "shares": 2668
+          }
+        },
+        {
+          "url": "https://www.tiktok.com/@/video/7694634748395736327",
+          "source": "tiktok",
+          "type": "video",
+          "title": "Tui đã thi đậu bằng lái ô tô rùi mí bà ơiii. Hội chị em 1m4 tự tin lên nhaaaa 💕✨🥰 #oto #thibanglai",
+          "metrics": {
+            "views": 53900,
+            "likes": 1373,
+            "comments": 171,
+            "shares": 53
+          }
+        }
+      ],
+      "sample_comments": [
+        {
+          "text": "M 1m46, đỗ số sàn lần 1 luôn. Nhả vía các bà, cứ tự tin nha. Thi xong cố học 1_2 buổi kèm đi thật bằng xe mình là đi ầm ầm thui á các bà.",
+          "likes": 8,
+          "replies": 2,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Xin vía bà, tui chuẩn bị đi học á",
+          "likes": 1,
+          "replies": 2,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Xin vía c đẹp oi🥰",
+          "likes": 1,
+          "replies": 2,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Xin vía chị chuẩn bị thi lại sa hình",
+          "likes": 1,
+          "replies": 2,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Xin via a",
+          "likes": 1,
+          "replies": 1,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Ngưỡng mộ quá, chúc mừng bạn. 🤩🤩",
+          "likes": 1,
+          "replies": 1,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "e xin viad nhé",
+          "likes": 1,
+          "replies": 1,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Giỏi",
+          "likes": 1,
+          "replies": 1,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Xin vía đỗ nha bàa",
+          "likes": 1,
+          "replies": 1,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Giỏi quá chị ơi, chúc mừng chị nà😍",
+          "likes": 1,
+          "replies": 1,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "E chúc mừng c ạ.",
+          "likes": 0,
+          "replies": 1,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Dạ thành tâm nhả vía ạ hihi 🥰🥰🥰",
+          "likes": 1,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Dạ em nhả vía ạ hihi",
+          "likes": 1,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Dạ em cảm ơn ạ, em thi 2 lần mới đậu 😅",
+          "likes": 1,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Dạ em nhả vía 🥰🥰🥰",
+          "likes": 1,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Nhả vía bà ơi 🥰🥰🥰",
+          "likes": 1,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Nhả vía nhả vía hihi",
+          "likes": 0,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "Nhả vía ngen bà uii 🥰🥰🥰",
+          "likes": 0,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "C cảm ơn em nhìu nha 🥰🥰🥰",
+          "likes": 0,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        },
+        {
+          "text": "🥰🥰🥰",
+          "likes": 0,
+          "replies": null,
+          "source": "tiktok",
+          "parent_url": "https://www.tiktok.com/@/video/7694634748395736327"
+        }
+      ]
+    },
+    {
+      "name": "thi bằng lái xe máy",
+      "sources": [
+        "google",
+        "youtube",
+        "forum",
+        "tiktok"
+      ],
+      "item_count": 8,
+      "raw_score": {
+        "hot": 20.8,
+        "controversy": 0.1,
+        "total": 20.9
+      },
+      "stats": {
+        "rel_hot": 2.163,
+        "growth": null,
+        "total_engagement": 2352,
+        "views": 365837,
+        "comment_count_reported": 134,
+        "comment_view_ratio": 0.00037,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=Hj3jw3ylWWI",
+          "source": "youtube",
+          "type": "video",
+          "title": "Chấn Động Những Phi Vụ Thi Bằng Lái Xe Bá Đạo Nhất Việt Nam - Top 1 Khám Phá",
+          "metrics": {
+            "views": 295321,
+            "likes": 1600,
+            "comments": 113,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ts0HdGH4d8c",
+          "source": "youtube",
+          "type": "video",
+          "title": "Dạy Nghề Tân Sơn | Giáo Án Học Lý Thuyết 250 Câu Hỏi Thi Bằng Lái Xe Hạng A1 và Hạng A Năm 2025",
+          "metrics": {
+            "views": 70181,
+            "likes": 604,
+            "comments": 19,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.tiktok.com/@/video/7696694283692297479",
+          "source": "tiktok",
+          "type": "video",
+          "title": "QUY TẮC GIAO THÔNG — đúng luật hay theo thói quen?\nCâu 77/600 · Quy tắc giao thông. Bạn chọn số mấy?",
+          "metrics": {
+            "views": 335,
+            "likes": 14,
+            "comments": 2,
+            "shares": 0
+          }
+        },
+        {
+          "url": "https://daotaolaixehd.com.vn/thi-thu-bang-lai-xe-a1-truc-tuyen.html",
+          "source": "google",
+          "type": "article",
+          "title": "[ 2026] Thi thử bằng lái xe A1 trực tuyến",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://hoclaixehcm.vn/thi-bang-lai-xe-may-a1-online/",
+          "source": "google",
+          "type": "article",
+          "title": "[2026] Thi Thử Bằng Lái Xe A1 - 250 Câu Hỏi Lý Thuyết ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/chia-se-ve-qua-trinh-thi-a2-cua-em.1720215/",
+          "source": "forum",
+          "type": "post",
+          "title": "Chia sẻ về quá trình thi A2 của em - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/thi-bang-lai-xe-may-a1.1928199/",
+          "source": "forum",
+          "type": "post",
+          "title": "[Thảo luận] - Thi bằng lái xe máy A1 | Mạng xã hội OTOFUN",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/hoc-bang-lai-a1-cho-xe-may-175cm.1957779/",
+          "source": "forum",
+          "type": "post",
+          "title": "Hết hạn - Học bằng lái A1 cho xe máy <175cm!!!!! - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "đổi bằng lái PET",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 6,
+      "raw_score": {
+        "hot": 12.9,
+        "controversy": 5.6,
+        "total": 18.5
+      },
+      "stats": {
+        "rel_hot": 0.723,
+        "growth": null,
+        "total_engagement": 814,
+        "views": 54866,
+        "comment_count_reported": 349,
+        "comment_view_ratio": 0.00636,
+        "comments_collected": 20,
+        "reply_chains": 13,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y",
+          "source": "youtube",
+          "type": "video",
+          "title": "HƯỚNG DẪN CẤP ĐỔI GIẤY PHÉP LÁI XE ÔTÔ/XE TẢI (B,C, D...) MỚI NHẤT NĂM 2026",
+          "metrics": {
+            "views": 29901,
+            "likes": 290,
+            "comments": 296,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=__nSPCxk38k",
+          "source": "youtube",
+          "type": "video",
+          "title": "HƯỚNG DẪN ĐỔI GIẤY PHÉP LÁI XE ONLINE",
+          "metrics": {
+            "views": 24965,
+            "likes": 155,
+            "comments": 53,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.facebook.com/KenhVOVGT/posts/h%C6%B0%E1%BB%9Bng-d%E1%BA%ABn-%C4%91%E1%BB%95i-gplx-b%E1%BA%B1ng-gi%E1%BA%A5y-b%C3%ACa-sang-th%E1%BA%BB-nh%E1%BB%B1a-pet/1128264966164242/",
+          "source": "google",
+          "type": "article",
+          "title": "Hướng dẫn đổi GPLX bằng giấy bìa sang thẻ nhựa PET",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://proship.vn/news/thu-tuc-cach-doi-giay-phep-bang-lai-xe-may-a1-sang-the-nhua/",
+          "source": "google",
+          "type": "article",
+          "title": "Thủ tục đổi giấy phép bằng lái xe máy A1 sang thẻ nhựa",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/em-hoi-doi-giay-phep-lai-xe-may-giay-sang-the-nhua-online.1960892/",
+          "source": "forum",
+          "type": "post",
+          "title": "Em hỏi đổi giấy phép lái xe máy giấy sang thẻ nhựa online?",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/doi-giay-phep-lai-xe-may-moi-truc-tiep-va-online-o-dau.1939234/",
+          "source": "forum",
+          "type": "post",
+          "title": "Đổi giấy phép lái xe máy mới trực tiếp và online ở đâu? - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": [
+        {
+          "text": "cảm ơn anh, hướng dẫn chi tiết và dễ thực hiện, đúng là khi có xác nhận xong thì bằng lái có trên VNE Traffic, chứ mình mở bên VNE id không có",
+          "likes": 1,
+          "replies": 5,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Cập nhật thêm thông tin từ báo Vnexpress (https://vnexpress.net/nhac-thoi-han-doi-giay-phep-lai-xe-qua-vnetraffic-5050231.html). Hy vọng là ứng dụng VNeTraffic sẽ chủ động gửi thông báo về GPLX sắp hết hạn để mọi người kịp đổi GPLX đúng hạn.",
+          "likes": 1,
+          "replies": 2,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Hay quá ad ơi, thanks ad nha",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Lưu lại để 3 tháng tới, tui sẽ làm theo hướng dẫn này để gia hạn gplx của tui. Cám ơn thông tin hữu ích của kênh. Chức kênh làm đa dạng kiến thức bổ ích.",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Cám ơn thông tin mà ad cung cấp nha, hữu ích lắm",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "mình làm tới bước tra cứu gplx hiển thị: lỗi trong quá trình hệ thống xử lý lấy thông tin vi phạm từ các cơ quan quản lý nhà nước, vui lòng thực hiện lại . mọi người có ai bị vậy k ?",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "21.7.2026: Bữa nay DV công đòi ảnh nền trắng rồi nhé, không phải là nền xanh nữa",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "E làm đủ các bước nhưng báo ĐANG CHỜ XÁC NHẬN cả tuần nay rồi ạ😩",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "(ẩn tên) ko có hình chụp lại thì sao dk",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "mọi người ơi, mọi người cho em hỏi tại sao chỗ thông tin chuyển hạng mới em lai không thấy hiển thị gì nhờ mng",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Cảm ơn admin đã chia sẻ, cho hỏi khi nào có bằng cứng vậy ạ, mình đăng kí lấy tận nơi",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Sao mình vào mà đưa thông tin golx cũ lên nó cứ báo không tìm thấy nhỉ?",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Thuc hien tren dien thoai duoc khong",
+          "likes": 0,
+          "replies": 1,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Mình bổ sung thêm Thông tư 108/2026 của Bộ Công an: Từ 1/7/2026 bằng lái xe \"HẾT HẠN DƯỚI 30 NGÀY KHÔNG PHẢI THI LẠI LÝ THUYẾT\", xem chi tiết: https://vnexpress.net/tu-1-7-bang-lai-xe-het-han-duoi-30-ngay-khong-phai-thi-lai-ly-thuyet-5092374.html",
+          "likes": 1,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Mình mới làm tối nay thì hình nền xanh trên web BCA đòi là hình 3x4 chứ ko phải 4x6 nha. Mình phải dùng tool online để chỉnh hình 4x6 thành 3x4 nền xanh nộp lên mới hợp lệ. Giờ chờ bên CSGT trả lời \"tiếp nhận\" và đưa llink nộp lệ phí hay ko.",
+          "likes": 1,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Cám ơn thông tin và hướng dẫn tận tình của bạn :D",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Rất chi tiết thanks bạn🎉🎉🎉",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Thanks 👏👏👏",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Cảm ơn bạn nhiều nha.",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        },
+        {
+          "text": "Tìm số phép lái xe mà hệ thống không tìm ra thì làm sao các bác?",
+          "likes": 0,
+          "replies": 0,
+          "source": "youtube",
+          "parent_url": "https://www.youtube.com/watch?v=T2ULJTU_d7Y"
+        }
+      ]
+    },
+    {
+      "name": "câu điểm liệt",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 5,
+      "raw_score": {
+        "hot": 12.5,
+        "controversy": 0.6,
+        "total": 13.1
+      },
+      "stats": {
+        "rel_hot": 0.642,
+        "growth": null,
+        "total_engagement": 810,
+        "views": 38498,
+        "comment_count_reported": 64,
+        "comment_view_ratio": 0.00166,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=Vs06CxufJqA",
+          "source": "youtube",
+          "type": "video",
+          "title": "ÔN CẤP TỐC 20 CÂU ĐIỂM LIỆT A1 – A | BỘ LUẬT 250 – SAI 1 CÂU LÀ RỚT",
+          "metrics": {
+            "views": 38393,
+            "likes": 745,
+            "comments": 64,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=kFkZ4o6uNMM",
+          "source": "youtube",
+          "type": "video",
+          "title": "60 câu điểm liệt   YouTube",
+          "metrics": {
+            "views": 105,
+            "likes": 1,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://hoclaixehcm.vn/60-cau-diem-liet/",
+          "source": "google",
+          "type": "article",
+          "title": "[2026] 60 Câu Hỏi Điểm Liệt - Ôn Thi Lý Thuyết Bằng ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://daotaolaixehd.com.vn/60-cau-hoi-diem-liet-thi-ly-thuyet.html",
+          "source": "google",
+          "type": "article",
+          "title": "60 câu hỏi điểm liệt thi lý thuyết - Sai 01 câu là trượt ngay",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/bo-600-cau-hoi-sat-hach-lai-xe-shlx.1937995/",
+          "source": "forum",
+          "type": "post",
+          "title": "Bộ 600 câu hỏi sát hạch lái xe (SHLX) - FunLand - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "bằng lái hết hạn",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 5,
+      "raw_score": {
+        "hot": 12.7,
+        "controversy": 0.2,
+        "total": 12.9
+      },
+      "stats": {
+        "rel_hot": 0.679,
+        "growth": null,
+        "total_engagement": 744,
+        "views": 51716,
+        "comment_count_reported": 29,
+        "comment_view_ratio": 0.00056,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=iuSBxiq8pGM",
+          "source": "youtube",
+          "type": "video",
+          "title": "Hướng dẫn gia hạn giấy phép lái xe tại nhà nhanh chóng đơn giản",
+          "metrics": {
+            "views": 45572,
+            "likes": 504,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pNgxXMPXrIg",
+          "source": "youtube",
+          "type": "video",
+          "title": "Bằng lái hết hạn đổi ra sao?luật mới lái xe luôn mang giấy sức khỏe theo xe",
+          "metrics": {
+            "views": 6144,
+            "likes": 211,
+            "comments": 29,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.facebook.com/csgt.daklak/posts/-ng%E1%BB%A1-ng%C3%A0ng-v%C3%AC-qu%C3%A1-h%E1%BA%A1n-b%E1%BA%B1ng-l%C3%A1i-xe-m%E1%BB%99t-ng%C3%A0y-c%C5%A9ng-ph%E1%BA%A3i-thi-l%E1%BA%A1i-l%C3%BD-thuy%E1%BA%BFtquy-%C4%91%E1%BB%8Bnh-v/1028442549401812/",
+          "source": "google",
+          "type": "article",
+          "title": "Quá hạn bằng lái xe 1 ngày có phải thi lại lý thuyết theo ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://trungtamhoanggia.com/tin-tuc/quy-dinh-thoi-han-cua-giay-phep-lai-xe-moi-nhat-ap-dung-2025.html",
+          "source": "google",
+          "type": "article",
+          "title": "Quy định thời hạn của Giấy phép lái xe mới nhất (Áp dụng 2025)",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/em-xin-tu-van-bang-lai-oto-het-han-tu-nam-truoc-ah.1802479/",
+          "source": "forum",
+          "type": "post",
+          "title": "Em Xin tư vấn bằng lái oto hết hạn từ năm trước ah - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "thi bằng xe côn",
+      "sources": [
+        "google",
+        "youtube",
+        "forum",
+        "facebook"
+      ],
+      "item_count": 8,
+      "raw_score": {
+        "hot": 9.9,
+        "controversy": 1.5,
+        "total": 11.4
+      },
+      "stats": {
+        "rel_hot": 0.168,
+        "growth": null,
+        "total_engagement": 127,
+        "views": 7240,
+        "comment_count_reported": 11,
+        "comment_view_ratio": 0.00152,
+        "comments_collected": 10,
+        "reply_chains": 2,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=Q88RqsBQgko",
+          "source": "youtube",
+          "type": "video",
+          "title": "Hướng Dẫn Cách Chạy Vòng Số 8 Hạng A Bằng Xe Côn Tay Cho Người Mới",
+          "metrics": {
+            "views": 5898,
+            "likes": 65,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493434091063711/",
+          "source": "facebook",
+          "type": "post",
+          "title": "Hôm qua mình mới thi xong bằng lái xe thì lần 1 đậu luôn có 1 số kinh nghiệm muốn chia sẻ với các bạ",
+          "metrics": {
+            "views": null,
+            "likes": 25,
+            "comments": 1,
+            "shares": 2
+          }
+        },
+        {
+          "url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/",
+          "source": "facebook",
+          "type": "post",
+          "title": "Quả bằng lái xe quốc gia mà sai chính tả. Chịu khứa nào duyệt cái này nhỉ.\nChỗ \"Date of issue\"  đúng",
+          "metrics": {
+            "views": null,
+            "likes": 9,
+            "comments": 9,
+            "shares": 0
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=d2VcqdQV-lU",
+          "source": "youtube",
+          "type": "video",
+          "title": "Thi Hạng A Được Chọn Xe Côn Và Tay Ga",
+          "metrics": {
+            "views": 1342,
+            "likes": 5,
+            "comments": 1,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5hNzOIOocRA",
+          "source": "google",
+          "type": "article",
+          "title": "Hướng Dẫn Chạy Xe Côn Tay Thi Thực Hành Lái Xe A2 Cho ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.facebook.com/groups/thibanglaixemaytphcmgpeh/posts/1372445533815970/",
+          "source": "google",
+          "type": "article",
+          "title": "Thi bằng lái xe A1 có được dùng xe tay ga thay xe tay côn ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/tim-cho-thue-xe-pkl-tu-tap-thi-a2.1908634/",
+          "source": "forum",
+          "type": "post",
+          "title": "[Thảo luận] - Tìm chỗ thuê xe PKL tự tập thi A2 - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/bang-a2-thi-co-kho-lam-khong.1782640/",
+          "source": "forum",
+          "type": "post",
+          "title": "[Thảo luận] - Bằng A2 thi có khó lắm không - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": [
+        {
+          "text": "Của mình có cách ra",
+          "likes": 0,
+          "replies": 2,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        },
+        {
+          "text": "(ẩn tên) chụp lên xem",
+          "likes": 0,
+          "replies": 1,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        },
+        {
+          "text": "Chúc mừng chúc mừng! Xin vía thi đỗ nhé🧡🧡🧡",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493434091063711/"
+        },
+        {
+          "text": "Nay mới thấy",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        },
+        {
+          "text": "chắc của ai cũng thế🤣 vừa vào xem của mk cũng v🥲",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        },
+        {
+          "text": "juan kk",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        },
+        {
+          "text": "Xem trong nhóm ấy. Đầy người đăng ảnh bằng. Nhìn là biết ngta có cách hay không. Vừa đi dạo xem mấy cái thì cũng viêt liền cả",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        },
+        {
+          "text": "Mọi người tra bằng gì vậy ạ",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        },
+        {
+          "text": "Ra bằng cứng thì có cách bạn ạ, nhưng mình họ Nguyễn họ ghi là họ Nguyền 🤣",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        },
+        {
+          "text": "(ẩn tên) à mình coi lộn cũng giống nhau à",
+          "likes": 0,
+          "replies": null,
+          "source": "facebook",
+          "parent_url": "https://www.facebook.com/groups/onthigplxotomoto/permalink/2493769767696810/"
+        }
+      ]
+    },
+    {
+      "name": "thi A1 trượt",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 5,
+      "raw_score": {
+        "hot": 9.5,
+        "controversy": 0.4,
+        "total": 9.9
+      },
+      "stats": {
+        "rel_hot": 0.083,
+        "growth": null,
+        "total_engagement": 42,
+        "views": 11050,
+        "comment_count_reported": 14,
+        "comment_view_ratio": 0.00127,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=D4rgzqBw63k",
+          "source": "youtube",
+          "type": "video",
+          "title": "Tập thực hành lái xe 2 bánh hạng A1 trên xe cảm biến có tín hiệu | Rạch Giá 2026",
+          "metrics": {
+            "views": 11038,
+            "likes": 27,
+            "comments": 13,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SjN5Zadwbn4",
+          "source": "youtube",
+          "type": "video",
+          "title": "10 câu điểm liệt thi bằng lái xe máy: sai 1 câu là trượt | Ôn thi bằng lái A1, A #1",
+          "metrics": {
+            "views": 12,
+            "likes": 1,
+            "comments": 1,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://trungtamgdnnlaixesaigon.edu.vn/thi-a1-rot-ly-thuyet-hoac-thuc-hanh/",
+          "source": "google",
+          "type": "article",
+          "title": "Thi A1 rớt lý thuyết hoặc thực hành: cách xử lý & lưu ý 2026",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.facebook.com/24hbinhduong.vn/posts/ch%C3%ADnh-th%E1%BB%A9c-ng%C6%B0%E1%BB%9Di-h%E1%BB%8Dc-l%C3%A1i-xe-h%E1%BA%A1ng-a-a1-v%C3%A0-b1-khi-thi-r%E1%BB%9Bt-l%C3%BD-thuy%E1%BA%BFt-th%C3%AC-v%E1%BA%ABn-%C4%91%C6%B0%E1%BB%A3c-r/1047060940788036/",
+          "source": "google",
+          "type": "article",
+          "title": "Chính thức ❌ Người học lái xe hạng A, A1 và B1 khi thi rớt ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/doi-tuong-va-dieu-kien-du-thi-bang-lai-motor-pkl-o-nuoc-ngoai.191468/",
+          "source": "forum",
+          "type": "post",
+          "title": "Đối tượng và điều kiện dự thi bằng lái motor PKL ở nước ngoài",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "mất bằng lái làm lại",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 6,
+      "raw_score": {
+        "hot": 9.4,
+        "controversy": 0.2,
+        "total": 9.6
+      },
+      "stats": {
+        "rel_hot": 0.074,
+        "growth": null,
+        "total_engagement": 36,
+        "views": 9951,
+        "comment_count_reported": 6,
+        "comment_view_ratio": 0.0006,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=l0XEaWzGyR8",
+          "source": "youtube",
+          "type": "video",
+          "title": "Cấp lại bằng lái xe máy bị mất phải làm như thế nào ? Quy trình, thủ tục và chi phí",
+          "metrics": {
+            "views": 9746,
+            "likes": 30,
+            "comments": 4,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=f0JlTqq7mlk",
+          "source": "youtube",
+          "type": "video",
+          "title": "Thủ Tục Cấp Lại Bằng Lái Xe Máy Bị Mất | Còn Hoặc Không Còn Hồ Sơ Gốc 0945.240.246",
+          "metrics": {
+            "views": 205,
+            "likes": 0,
+            "comments": 2,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://dat.bike/mat-bang-lai-xe-may/?srsltid=AU7gw4VlQCVChNiuZY17l232LrycQvG8otJd-m1MndlIv8B4B7fRdwrp",
+          "source": "google",
+          "type": "article",
+          "title": "Mất bằng lái xe máy phải làm sao? Thủ tục xin cấp lại mới ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://luatvietnam.vn/tin-phap-luat/thu-tuc-cap-lai-giay-phep-lai-xe-bi-mat-230-18197-article.html",
+          "source": "google",
+          "type": "article",
+          "title": "Mất bằng lái xe: Hướng dẫn hồ sơ, thủ tục cấp lại mới nhất",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/em-bi-mat-bang-lai-xe-may-gio-phai-thi-lai-hay-xin-cap-lai-duoc-a.1924095/",
+          "source": "forum",
+          "type": "post",
+          "title": "Em bị mất bằng lái xe máy giờ phải thi lại hay xin cấp lại được ạ",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/thu-tuc-cap-lai-giay-phep-lai-xe-o-to-bi-mat.1926468/",
+          "source": "forum",
+          "type": "post",
+          "title": "Thủ tục cấp lại Giấy phép lái xe ô tô bị mất - FunLand - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "bỏ thi mô phỏng",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 6,
+      "raw_score": {
+        "hot": 9.5,
+        "controversy": 0,
+        "total": 9.5
+      },
+      "stats": {
+        "rel_hot": 0.093,
+        "growth": null,
+        "total_engagement": 57,
+        "views": 11365,
+        "comment_count_reported": 0,
+        "comment_view_ratio": 0,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=x76v7KuE5CQ",
+          "source": "youtube",
+          "type": "video",
+          "title": "Bỏ phần thi mô phỏng trong sát hạch bằng lái ô tô từ 1/7 | THDT",
+          "metrics": {
+            "views": 5098,
+            "likes": 32,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=SES2FzXRecY",
+          "source": "youtube",
+          "type": "video",
+          "title": "Chính thức bỏ phần thi mô phỏng trong sát hạch lái xe | Cụm tin | VTV24",
+          "metrics": {
+            "views": 6267,
+            "likes": 25,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://xaydungchinhsach.chinhphu.vn/quy-dinh-moi-bo-phan-sat-hach-lai-xe-mo-phong-tu-01-7-2026-119260627105803901.htm",
+          "source": "google",
+          "type": "article",
+          "title": "QUY ĐỊNH MỚI: Bỏ phần sát hạch lái xe mô phỏng",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.facebook.com/tintucvtv24/posts/t%E1%BB%AB-ng%C3%A0y-017-ph%E1%BA%A7n-thi-m%C3%B4-ph%E1%BB%8Fng-trong-s%C3%A1t-h%E1%BA%A1ch-gi%E1%BA%A5y-ph%C3%A9p-l%C3%A1i-xe-%C3%B4-t%C3%B4-s%E1%BA%BD-%C4%91%C6%B0%E1%BB%A3c-b%E1%BB%8F-do/1344791784523356/",
+          "source": "google",
+          "type": "article",
+          "title": "Từ ngày 01/7, phần thi mô phỏng trong sát hạch giấy phép lái ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/de-xuat-bo-thi-mo-phong-trong-bang-lai-xe.1962661/",
+          "source": "forum",
+          "type": "post",
+          "title": "[Funland] - Đề xuất bỏ thi mô phỏng trong bằng lái xe | OTOFUN ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/phan-thi-mo-phong-trong-sat-hach-lai-xe-o-to-se-sua-doi-giam-do-kho.1870996/",
+          "source": "forum",
+          "type": "post",
+          "title": "Phần thi mô phỏng trong sát hạch lái xe ô tô sẽ sửa đổi, giảm ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "thông tư 108/2026",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 5,
+      "raw_score": {
+        "hot": 9.1,
+        "controversy": 0.4,
+        "total": 9.5
+      },
+      "stats": {
+        "rel_hot": 0.025,
+        "growth": null,
+        "total_engagement": 20,
+        "views": 2564,
+        "comment_count_reported": 3,
+        "comment_view_ratio": 0.00117,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=hUNp3hLSl3o",
+          "source": "youtube",
+          "type": "video",
+          "title": "7 điểm mới về sát hạch, cấp giấy phép lái xe theo Thông tư 108 | LuatVietnam.vn",
+          "metrics": {
+            "views": 2542,
+            "likes": 17,
+            "comments": 3,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://chinhphu.vn/?pageid=27160&docid=218725&classid=1&typegroupid=6",
+          "source": "google",
+          "type": "article",
+          "title": "Thông tư số 108/2026/TT-BCA của Bộ Công an: Quy định ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://thuvienphapluat.vn/van-ban/Giao-thong-Van-tai/Thong-tu-108-2026-TT-BCA-sat-hach-cap-giay-phep-lai-xe-704772.aspx",
+          "source": "google",
+          "type": "article",
+          "title": "Thông tư 108/2026/TT-BCA sát hạch cấp giấy phép lái xe ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3DHgcxqYAHA",
+          "source": "youtube",
+          "type": "video",
+          "title": "Thi và cấp Giấy phép lái xe có gì thay đổi theo Thông tư 108/2026/TT-BCA?",
+          "metrics": {
+            "views": 22,
+            "likes": 0,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/trung-tam-dao-tao-lai-xe-truong-dai-hoc-phong-chay-chua-chay-bo-cong-an.387873/",
+          "source": "forum",
+          "type": "post",
+          "title": "Trung tâm đào tạo lái xe Trường Đại học Phòng cháy chữa cháy",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "trừ điểm bằng lái",
+      "sources": [
+        "google",
+        "youtube",
+        "forum"
+      ],
+      "item_count": 6,
+      "raw_score": {
+        "hot": 9.3,
+        "controversy": 0.1,
+        "total": 9.4
+      },
+      "stats": {
+        "rel_hot": 0.053,
+        "growth": null,
+        "total_engagement": 21,
+        "views": 7713,
+        "comment_count_reported": 2,
+        "comment_view_ratio": 0.00026,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=t0jacA84lU0",
+          "source": "youtube",
+          "type": "video",
+          "title": "GIẤY PHÉP LÁI XE TRỪ HẾT ĐIỂM PHẢI THI LẠI #saigon365 #gplx #xanhsm #hoclaixe #viphamgiaothong",
+          "metrics": {
+            "views": 6773,
+            "likes": 18,
+            "comments": 2,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5hcoQweEX3E",
+          "source": "youtube",
+          "type": "video",
+          "title": "Bao lâu thì được phục hồi điểm giấy phép lái xe khi chưa bị trừ hết 12 điểm? | TTGĐ",
+          "metrics": {
+            "views": 940,
+            "likes": 1,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://vietnamnet.vn/chi-tiet-muc-tru-diem-giay-phep-lai-xe-o-to-voi-cac-loi-vi-pham-tu-2025-2358687.html",
+          "source": "google",
+          "type": "article",
+          "title": "Chi tiết mức trừ điểm giấy phép lái xe ô tô với các lỗi vi ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.facebook.com/DDCIVANDON/posts/tr%E1%BB%AB-%C4%91i%E1%BB%83m-v%C3%A0-ph%E1%BB%A5c-h%E1%BB%93i-gi%E1%BA%A5y-ph%C3%A9p-l%C3%A1i-xe-ng%C6%B0%E1%BB%9Di-d%C3%A2n-c%E1%BA%A7n-n%E1%BA%AFm-r%C3%B5-%C4%91%E1%BB%83-tr%C3%A1nh-vi-ph%E1%BA%A1mt%E1%BB%AB-ng/1454373783365345/",
+          "source": "google",
+          "type": "article",
+          "title": "Trừ điểm và phục hồi giấy phép lái xe: Người dân cần ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/otofun-2025-tru-diem-tren-giay-phep-lai-xe-nhu-the-nao.1929718/",
+          "source": "forum",
+          "type": "post",
+          "title": "2025 Trừ điểm trên giấy phép lái xe như thế nào? - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.otofun.net/threads/tu-2025-mot-giay-phep-lai-xe-co-bao-nhieu-diem.1933970/",
+          "source": "forum",
+          "type": "post",
+          "title": "Từ 2025, một giấy phép lái xe có bao nhiêu điểm? - otofun",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "11 tình huống thi xe máy",
+      "sources": [
+        "google",
+        "youtube"
+      ],
+      "item_count": 4,
+      "raw_score": {
+        "hot": 9,
+        "controversy": 0,
+        "total": 9
+      },
+      "stats": {
+        "rel_hot": 0.003,
+        "growth": null,
+        "total_engagement": 5,
+        "views": 105,
+        "comment_count_reported": 0,
+        "comment_view_ratio": 0,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.youtube.com/watch?v=JFlF1V-oKL8",
+          "source": "youtube",
+          "type": "video",
+          "title": "MÔ PHỎNG TÌNH HUỐNG THI BẰNG B TỪ 11 ĐẾN 20",
+          "metrics": {
+            "views": 34,
+            "likes": 3,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LXETAeK6cdo",
+          "source": "youtube",
+          "type": "video",
+          "title": "🚗 Toàn bộ quy trình 11 bài thi sa hình sát hạch lái xe ô tô hạng B (Số tự động)  Chi tiết & Mới nhất",
+          "metrics": {
+            "views": 71,
+            "likes": 2,
+            "comments": 0,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://thuvienphapluat.vn/chinh-sach-phap-luat-moi/vn/ho-tro-phap-luat/chinh-sach-moi/111896/de-xuat-11-tinh-huong-gia-dinh-khi-thi-bang-lai-xe-a1-tu-ngay-01-01-2028",
+          "source": "google",
+          "type": "article",
+          "title": "Đề xuất 11 tình huống giả định khi thi bằng lái xe A1 từ ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://laixebacha.com/huong-dan-11-bai-thi-sa-hinh-sat-hach-lai-xe-o-to",
+          "source": "google",
+          "type": "article",
+          "title": "Hướng dẫn 11 bài thi sa hình sát hạch lái xe ô tô - lái xe Bắc Hà",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "Vạn Xuân Phú Thọ",
+      "sources": [
+        "google"
+      ],
+      "item_count": 2,
+      "raw_score": {
+        "hot": 9,
+        "controversy": 0,
+        "total": 9
+      },
+      "stats": {
+        "rel_hot": 0,
+        "growth": null,
+        "total_engagement": 0,
+        "views": 0,
+        "comment_count_reported": 0,
+        "comment_view_ratio": null,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://vi.wikipedia.org/wiki/V%E1%BA%A1n_Xu%C3%A2n,_Ph%C3%BA_Th%E1%BB%8D",
+          "source": "google",
+          "type": "article",
+          "title": "Vạn Xuân, Phú Thọ",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://tinhthanhvn.com/province/phu-tho/xa-van-xuan",
+          "source": "google",
+          "type": "article",
+          "title": "Thống kê xã Vạn Xuân - Phú Thọ",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "học lái xe Phú Thọ",
+      "sources": [
+        "google"
+      ],
+      "item_count": 2,
+      "raw_score": {
+        "hot": 9,
+        "controversy": 0,
+        "total": 9
+      },
+      "stats": {
+        "rel_hot": 0,
+        "growth": null,
+        "total_engagement": 0,
+        "views": 0,
+        "comment_count_reported": 0,
+        "comment_view_ratio": null,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.facebook.com/ttdtshlxphutho/?locale=vi_VN",
+          "source": "google",
+          "type": "article",
+          "title": "Trung tâm Đào tạo và Sát hạch lái xe Phú Thọ | Viet Tri",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "http://daotaolaixeviettri.com/",
+          "source": "google",
+          "type": "article",
+          "title": "Dạy Học Lái Xe Ô Tô B2, C Uy Tín Tại Việt Trì",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "thi bằng lái Phú Thọ",
+      "sources": [
+        "google"
+      ],
+      "item_count": 2,
+      "raw_score": {
+        "hot": 9,
+        "controversy": 0,
+        "total": 9
+      },
+      "stats": {
+        "rel_hot": 0,
+        "growth": null,
+        "total_engagement": 0,
+        "views": 0,
+        "comment_count_reported": 0,
+        "comment_view_ratio": null,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.facebook.com/TTSatHachlaixeviettri/?locale=vi_VN",
+          "source": "google",
+          "type": "article",
+          "title": "Trung Tâm Dạy Nghề và Đào Tạo Lái Xe Việt Trì | Viet Tri",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        },
+        {
+          "url": "https://congan.phutho.gov.vn/article/Thong-bao-thoi-gian-dia-diem-to-chuc-sat-hach-29289-33",
+          "source": "google",
+          "type": "article",
+          "title": "Thông báo thời gian, địa điểm tổ chức sát hạch lái xe cơ ...",
+          "metrics": {
+            "views": null,
+            "likes": null,
+            "comments": null,
+            "shares": null
+          }
+        }
+      ],
+      "sample_comments": []
+    },
+    {
+      "name": "#banglaixemay",
+      "sources": [
+        "tiktok"
+      ],
+      "item_count": 1,
+      "raw_score": {
+        "hot": 9,
+        "controversy": 0,
+        "total": 9
+      },
+      "stats": {
+        "rel_hot": 0.001,
+        "growth": null,
+        "total_engagement": 15,
+        "views": 261,
+        "comment_count_reported": 0,
+        "comment_view_ratio": 0,
+        "comments_collected": 0,
+        "reply_chains": 0,
+        "dispute_comments": 0,
+        "dispute_ratio": 0
+      },
+      "links": [
+        {
+          "url": "https://www.tiktok.com/@/video/7697948537169906951",
+          "source": "tiktok",
+          "type": "video",
+          "title": "📚 CÙNG ÔN THI LÝ THUYẾT A1! Đề số 8...\n\nTổng hợp câu hỏi ôn thi bằng lái xe máy A1, giúp bạn luyện ",
+          "metrics": {
+            "views": 261,
+            "likes": 15,
+            "comments": 0,
+            "shares": 0
+          }
+        }
+      ],
+      "sample_comments": []
+    }
+  ]
+}

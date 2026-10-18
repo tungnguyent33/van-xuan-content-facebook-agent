@@ -4,8 +4,11 @@
   "type": "module",
   "scripts": {
     "fetch-trends": "node scripts/fetch-trends.js",
+    "fetch-trends:dry": "node scripts/fetch-trends.js --dry-run",
     "create-post": "node scripts/create-post.js",
-    "watermark": "node scripts/apply-watermark.js"
+    "watermark": "node scripts/apply-watermark.js",
+    "score-topics": "node scripts/score-topics.js",
+    "own-stats": "node scripts/fetch-own-stats.js"
   },
   "dependencies": {
     "sharp": "^0.35.4"

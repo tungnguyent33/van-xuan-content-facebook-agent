@@ -8,3 +8,7 @@ Quy trình tái tạo bài viral trong ngành đào tạo lái xe theo đúng gi
 3. Viết lại theo đúng thông tin và giọng điệu của Vạn Xuân (xem `context/profile.md`, `CLAUDE.md`), giữ cấu trúc nhưng thay hoàn toàn nội dung, số liệu, ví dụ bằng dữ liệu thật của Vạn Xuân.
 4. Không bịa số liệu — nếu không có số liệu thật, dùng cách diễn đạt định tính ("phần lớn học viên...", "rất nhiều trường hợp...").
 5. Luôn rà lại theo mục "Chủ đề PHẢI tránh" trong CLAUDE.md trước khi hoàn thiện.
+6. Nếu chủ đề lấy từ `context/topic-bank.md` hoặc có hai luồng ý kiến trái ngược: tuân theo mục
+   "Quy tắc với chủ đề tranh cãi" trong CLAUDE.md — trình bày công bằng hai phía, chốt bằng nguồn
+   chính thức có link (dòng **Nguồn:**), không trích bình luận kèm tên, không viết chủ đề `cần duyệt`,
+   và không xuất bài nếu câu trả lời chỉ là "tùy trường hợp, liên hệ".

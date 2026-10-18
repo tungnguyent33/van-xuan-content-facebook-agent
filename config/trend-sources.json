@@ -1,0 +1,276 @@
+{
+  "_ghi_chu": "Cấu hình nguồn thu thập xu hướng cho scripts/fetch-trends.js. Thêm nguồn mới: tạo scripts/sources/<module>.js (xuất buildInput + normalize), rồi thêm 1 phần tử vào 'sources' với module trùng tên file. Bộ từ khóa theo docs/dinh-huong-phat-trien-agent.md mục 3.",
+  "defaults": {
+    "timeout_seconds": 300
+  },
+  "keyword_groups": {
+    "thi_bang": [
+      "thi bằng A1",
+      "thi bằng lái xe máy",
+      "thi A1 trượt",
+      "sa hình A1",
+      "thi bằng xe côn",
+      "câu điểm liệt"
+    ],
+    "luat_moi": [
+      "thông tư 108/2026",
+      "bỏ thi mô phỏng",
+      "11 tình huống thi xe máy",
+      "bằng lái hết hạn",
+      "trừ điểm bằng lái"
+    ],
+    "cap_doi": [
+      "đổi bằng lái PET",
+      "mất bằng lái làm lại",
+      "bằng A1 cũ lái xe 150cc"
+    ],
+    "dia_phuong": [
+      "học lái xe Phú Thọ",
+      "thi bằng lái Phú Thọ",
+      "Vạn Xuân Phú Thọ"
+    ]
+  },
+  "sources": [
+    {
+      "id": "google",
+      "enabled": true,
+      "module": "google",
+      "actor": "apify/google-search-scraper",
+      "keyword_groups": [
+        "thi_bang",
+        "luat_moi",
+        "cap_doi",
+        "dia_phuong"
+      ],
+      "max_results_per_keyword": 5,
+      "input": {
+        "maxPagesPerQuery": 1,
+        "languageCode": "vi",
+        "countryCode": "vn"
+      }
+    },
+    {
+      "id": "tiktok",
+      "_ghi_chu": "Đang TẮT: các lệnh /create-* gọi fetch-trends mỗi lần viết bài, bật nguồn này sẽ tốn tín dụng mỗi lần. Chạy riêng hằng tuần bằng: node scripts/fetch-trends.js --source=tiktok",
+      "enabled": false,
+      "module": "tiktok",
+      "actor": "clockworks/tiktok-scraper",
+      "comments_actor": "clockworks/tiktok-comments-scraper",
+      "keyword_groups": [
+        "thi_bang",
+        "luat_moi",
+        "cap_doi",
+        "dia_phuong"
+      ],
+      "hashtags": [
+        "#thibanglaixe",
+        "#thia1",
+        "#banglaixemay",
+        "#sahinh",
+        "#luatgiaothong"
+      ],
+      "max_results_per_keyword": 10,
+      "max_age_days": 60,
+      "languages": [
+        "vi",
+        "un"
+      ],
+      "timeout_seconds": 600,
+      "max_charge_usd": {
+        "video": 1.5,
+        "comments": 1
+      },
+      "video_input": {
+        "searchSection": "/video",
+        "videoSearchDateFilter": "LAST_3_MONTHS",
+        "excludePinnedPosts": true,
+        "shouldDownloadVideos": false,
+        "shouldDownloadCovers": false,
+        "shouldDownloadAvatars": false,
+        "shouldDownloadMusicCovers": false,
+        "shouldDownloadSlideshowImages": false
+      },
+      "comments": {
+        "max_videos": 10,
+        "max_per_video": 50,
+        "max_replies_per_comment": 5,
+        "min_views": 1000
+      },
+      "comment_input": {}
+    },
+    {
+      "id": "facebook",
+      "_ghi_chu": "Đang TẮT (tốn tín dụng). Chạy riêng hằng tuần: node scripts/fetch-trends.js --source=facebook. Danh sách groups/pages là GIÁ TRỊ TẠM do Claude chọn ngày 2026-10-18 (group công khai tìm qua Google, page báo VnExpress) — thay bằng danh sách trung tâm muốn theo dõi. Chỉ dùng group/page công khai.",
+      "enabled": false,
+      "module": "facebook",
+      "groups_actor": "apify/facebook-groups-scraper",
+      "pages_actor": "apify/facebook-posts-scraper",
+      "comments_actor": "apify/facebook-comments-scraper",
+      "keyword_groups": [],
+      "groups": [
+        "https://www.facebook.com/groups/onthigplxotomoto/"
+      ],
+      "pages": [
+        "https://www.facebook.com/congdongvnexpress"
+      ],
+      "max_posts_per_target": 30,
+      "max_age_days": 60,
+      "timeout_seconds": 600,
+      "max_charge_usd": {
+        "group": 0.5,
+        "page": 0.5,
+        "comments": 0.5
+      },
+      "group_input": {
+        "viewOption": "TOP_POSTS"
+      },
+      "page_input": {},
+      "comments": {
+        "max_posts": 5,
+        "max_per_post": 50,
+        "include_replies": true
+      },
+      "comment_input": {
+        "viewOption": "RANKED_UNFILTERED"
+      }
+    },
+    {
+      "id": "youtube",
+      "_ghi_chu": "Đang TẮT (tốn tín dụng). Chạy riêng hằng tuần: node scripts/fetch-trends.js --source=youtube",
+      "enabled": false,
+      "module": "youtube",
+      "actor": "streamers/youtube-scraper",
+      "comments_actor": "streamers/youtube-comments-scraper",
+      "keyword_groups": [
+        "thi_bang",
+        "luat_moi",
+        "cap_doi"
+      ],
+      "max_results_per_keyword": 5,
+      "max_age_days": 365,
+      "timeout_seconds": 600,
+      "max_charge_usd": {
+        "video": 0.5,
+        "comments": 0.5
+      },
+      "video_input": {
+        "sortingOrder": "relevance",
+        "dateFilter": "year",
+        "maxResultsShorts": 0,
+        "maxResultStreams": 0
+      },
+      "comments": {
+        "max_videos": 5,
+        "max_per_video": 40
+      },
+      "comment_input": {
+        "sortCommentsBy": "TOP_COMMENTS"
+      }
+    },
+    {
+      "id": "forum",
+      "_ghi_chu": "Đang TẮT. Bước 1 tìm chủ đề qua Google (site:...), bước 2 chỉ đọc nội dung diễn đàn crawl: true, tôn trọng robots.txt. voz.vn để crawl: false vì robots.txt chặn bot AI. Chạy: node scripts/fetch-trends.js --source=forum",
+      "enabled": false,
+      "module": "forum",
+      "search_actor": "apify/google-search-scraper",
+      "crawl_actor": "apify/website-content-crawler",
+      "keyword_groups": [
+        "thi_bang",
+        "luat_moi",
+        "cap_doi"
+      ],
+      "forums": [
+        {
+          "domain": "otofun.net",
+          "crawl": true
+        },
+        {
+          "domain": "voz.vn",
+          "crawl": false
+        }
+      ],
+      "max_results_per_keyword": 3,
+      "max_threads": 10,
+      "max_text_chars": 6000,
+      "timeout_seconds": 600,
+      "max_charge_usd": {
+        "search": 0.5,
+        "crawl": 0.5
+      },
+      "search_input": {
+        "maxPagesPerQuery": 1,
+        "languageCode": "vi",
+        "countryCode": "vn"
+      },
+      "crawl_input": {
+        "crawlerType": "cheerio",
+        "proxyConfiguration": {
+          "useApifyProxy": true
+        },
+        "saveMarkdown": false,
+        "removeElementsCssSelector": "nav, footer, header, script, style, noscript, svg, .message-user, .message-attribution, .message-signature, .bbCodeBlock-title, .avatar, .username, .p-breadcrumbs, .block-outer, .shareButtons, .reactionsBar, .message-footer"
+      }
+    }
+  ],
+  "relevance_terms": [
+    "bằng lái",
+    "GPLX",
+    "giấy phép lái xe",
+    "sát hạch",
+    "thi bằng",
+    "sa hình",
+    "lý thuyết",
+    "học lái",
+    "lái xe máy",
+    "xe máy",
+    "A1",
+    "hạng A",
+    "mô phỏng",
+    "CSGT",
+    "trừ điểm",
+    "đổi bằng",
+    "cấp đổi",
+    "PET",
+    "phân khối",
+    "125cc",
+    "175cc",
+    "luật giao thông",
+    "giao thông"
+  ],
+  "scoring": {
+    "_ghi_chu": "Dùng bởi scripts/score-topics.js. dispute_terms: từ phản bác để đo tín hiệu tranh cãi (so khớp giữ dấu, không phân biệt hoa thường — thêm cả bản không dấu nếu cần).",
+    "dispute_terms": [
+      "vô lý",
+      "vo ly",
+      "sai rồi",
+      "sai roi",
+      "làm khó dân",
+      "lam kho dan",
+      "hành dân",
+      "tốn tiền",
+      "ton tien",
+      "thật không",
+      "that khong",
+      "ai bảo",
+      "không đúng",
+      "ko đúng",
+      "k đúng",
+      "bịa",
+      "láo",
+      "lừa đảo",
+      "vớ vẩn",
+      "nhảm",
+      "phản đối",
+      "bất cập",
+      "làm tiền",
+      "đâu có",
+      "chả hiểu",
+      "vô lí",
+      "cải lùi",
+      "khổ dân"
+    ],
+    "min_similarity": 0.08,
+    "merge_similarity": 0.75,
+    "sample_comments_max": 100
+  }
+}

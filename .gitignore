@@ -1,3 +1,7 @@
 .env
 node_modules/
 .DS_Store
+# Dữ liệu thô context/trends/*.json, context/own-stats/*.json đang được commit (repo riêng tư,
+# đã ẩn danh) để score-topics so sánh với lần chạy trước. Muốn bỏ khỏi git thì bỏ dấu # 2 dòng dưới:
+# context/trends/*.json
+# context/own-stats/*.json

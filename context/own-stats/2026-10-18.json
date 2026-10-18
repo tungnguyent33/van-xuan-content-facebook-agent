@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T15:02:41.587Z",
+  "days": 30,
+  "since": "2026-09-18",
+  "facebook": {
+    "url": "https://www.facebook.com/hoclaixephutho/",
+    "followers": 478,
+    "likes": 0,
+    "rating": "Not yet rated (0 reviews)",
+    "posts": [
+      {
+        "url": "https://www.facebook.com/hoclaixephutho/posts/pfbid02nYfVeEFwPLnmpLJXCnGhze5Rs95wBFBAjDY4amkTVq91MngPXa1AWdAyX5R9c5ucl",
+        "published_at": "2026-10-15T01:27:22.000Z",
+        "text": "🎉 GỬI CÁC ANH CHỊ EM HỌC VIÊN CŨ CỦA VẠN XUÂN 🎉\n\n  Cảm ơn mọi người đã tin tưởng học và thi bằng lái xe máy tại Văn phòng đào tạo lái xe Vạn Xuân. Thấy các bạn cầm bằng, tự tin chạy xe ngoài đường là niềm vui lớn nhất của thầy cô và văn phòng ❤️\n\n  Hiện văn phòng đang nhận đăng ký khóa mới, nên muốn nhờ mọi người một việc nhỏ:\n\n  👉 Nếu nhà mình có em, cháu, bạn bè, đồng nghiệp đang cần học bằng lái xe máy, giới thiệu giúp văn phòng nhé!\n\n  🏍️ Hạng A1 và hạng A\n\n  💰 Học phí chỉ từ 1.200.000đ",
+        "has_video": true,
+        "metrics": {
+          "views": null,
+          "likes": 1,
+          "comments": null,
+          "shares": 1
+        }
+      },
+      {
+        "url": "https://www.facebook.com/hoclaixephutho/posts/pfbid04XKBgJyyTxzxNBiWnaMR9GJkvzUBXyk9T9huq72q8jrwCgP4a3Je2wwumWMmseR1l",
+        "published_at": "2026-09-27T04:27:58.000Z",
+        "text": "📅 Một buổi học bình thường ở Vạn Xuân hôm nay: sáng ôn lý thuyết, chiều ra sân thực hành A, A1.\n\nPhòng học lý thuyết mỗi bạn được hướng dẫn thao tác một máy, làm đề như thi thật. Câu nào chưa hiểu thì giơ tay hỏi, giáo viên đứng ngay cạnh giải thích từng câu, không bắt học vẹt.\n\nRa sân, các bạn hạng A1 và hạng A chia nhóm luyện theo vạch. Thầy cô đi kèm, chỉnh từng tư thế, từng lần vào cua.\n\nVài mẹo được thầy cô nhắc đi nhắc lại trong buổi học, bạn nào sắp thi thì lưu lại nhé:\n\n✅ Lý thuyết: đọc",
+        "has_video": false,
+        "metrics": {
+          "views": null,
+          "likes": 2,
+          "comments": null,
+          "shares": 3
+        }
+      },
+      {
+        "url": "https://www.facebook.com/hoclaixephutho/posts/pfbid026TgygQ4oVDMDNJAw7MXbVrxdCKsZpCqYDTE2JaAybgcJbuZbBJSSYL5bVxvTYeufl",
+        "published_at": "2026-09-24T07:07:36.000Z",
+        "text": "✅ Hạng A1: thi ngày 12/10\n✅ Hạng A (xe số/GA): thi ngày 15/10\n✅ Hạng A (xe côn tay): thi ngày 16/10\n\n📌 Đăng ký sớm để được xếp vào đợt thi sớm nhất. Hồ sơ cần chuẩn bị, mình hướng dẫn chi tiết khi bạn liên hệ.\n\nKết quả thi còn tùy vào việc luyện tập của mỗi người, Vạn Xuân sẽ đồng hành ôn tập cùng bạn từ ngày đăng ký tới khi nhận bằng.\n\n📞 Gọi 0823.279.999 – 0978.639.199 hoặc nhắn Zalo OA nhé. — Vạn Xuân",
+        "has_video": false,
+        "metrics": {
+          "views": null,
+          "likes": 0,
+          "comments": null,
+          "shares": 7
+        }
+      }
+    ]
+  },
+  "tiktok": null,
+  "runs": [
+    {
+      "source": "own/facebook-page",
+      "id": "q2Q20APkIQ04a6ccC",
+      "actor": "apify/facebook-pages-scraper",
+      "status": "SUCCEEDED",
+      "usage_usd": 0.012,
+      "charged_events": {
+        "apify-default-dataset-item": 1,
+        "page": 0
+      },
+      "dataset_items": 1
+    },
+    {
+      "source": "own/facebook-posts",
+      "id": "ujnvXuHEfIxYcMboj",
+      "actor": "apify/facebook-posts-scraper",
+      "status": "SUCCEEDED",
+      "usage_usd": 0.022,
+      "charged_events": {
+        "post": 3,
+        "actor-start": 1,
+        "filter-applied": 3
+      },
+      "dataset_items": 3
+    }
+  ],
+  "errors": []
+}
