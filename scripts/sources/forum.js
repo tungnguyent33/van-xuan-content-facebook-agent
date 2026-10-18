@@ -10,6 +10,8 @@
 // Ẩn danh: bỏ khối tên/ảnh/chữ ký người đăng của XenForo bằng removeElementsCssSelector, và
 // che dòng "<tên> said:" / "<tên> nói:" còn sót trong trích dẫn.
 
+import { hideNames } from '../lib/anonymize.js';
+
 function fold(text) {
   return (text ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'd').toLowerCase();
 }

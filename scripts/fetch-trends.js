@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
 import { runActor } from './lib/apify.js';
+import { hideNames } from './lib/anonymize.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -162,6 +163,8 @@ async function main() {
         console.log(`   ✅ ${items.length} mục`);
       }
       if (dryRun) continue;
+      // Che tên còn sót trong nội dung bình luận (mọi nguồn)
+      for (const item of items) if (item.type === 'comment') item.text = hideNames(item.text);
       collected.push(...items);
       sourcesRun.push(source.id);
     } catch (err) {

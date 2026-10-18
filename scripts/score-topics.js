@@ -29,6 +29,11 @@ function tokens(text) {
   return new Set(fold(text).replace(/https?:\/\/\S+/g, ' ').split(/[^a-z0-9]+/).filter(w => w.length > 1 && !STOPWORDS.has(w)));
 }
 
+// Từ phản bác so khớp giữ nguyên dấu (chỉ hạ chữ thường): bỏ dấu thì "lừa" trùng "lúa", "bịa" trùng "bia"
+function lower(text) {
+  return (text ?? '').normalize('NFC').toLowerCase();
+}
+
 function jaccard(a, b) {
   if (!a.size || !b.size) return 0;
   let inter = 0;
@@ -48,7 +53,7 @@ const engagement = (m) => (m.likes ?? 0) + (m.comments ?? 0) + (m.shares ?? 0);
 // tìm kiếm (Facebook ghi "group:..."/"page:...") được gán vào cụm giống nhất theo từ ngữ.
 function buildClusters(items) {
   const parents = items.filter(i => i.type !== 'comment');
-  const comments = items.filter(i => i.type === 'comment');
+  const comments = items.filter(i => i.type === 'comment' && i.text);
   const clusters = new Map();
   const keyOf = (i) => (i.keyword && !/^(group|page):/.test(i.keyword) ? i.keyword.replace(/^#/, '#') : null);
 
@@ -144,8 +149,8 @@ function clusterStats(c, avg, disputeTerms, previous) {
   const commentCount = sum(c.items.map(i => i.metrics.comments));
   const commentViewRatio = views ? commentCount / views : null;
   const replyChains = c.comments.filter(cm => (cm.metrics.comments ?? 0) > 0).length;
-  const foldedTerms = disputeTerms.map(fold);
-  const disputing = c.comments.filter(cm => foldedTerms.some(t => fold(cm.text).includes(t))).length;
+  const foldedTerms = disputeTerms.map(lower);
+  const disputing = c.comments.filter(cm => foldedTerms.some(t => lower(cm.text).includes(t))).length;
   const disputeRatio = c.comments.length ? disputing / c.comments.length : 0;
 
   return {
@@ -178,7 +183,13 @@ function main() {
     process.exit(1);
   }
   const snapshot = JSON.parse(fs.readFileSync(file, 'utf-8'));
-  const items = snapshot.items ?? [];
+  // Bỏ video/bài không liên quan lái xe (tìm kiếm TikTok/YouTube hay trả video lạc đề) và bình
+  // luận của chúng; bài Google giữ lại vì là nguồn xác minh
+  const terms = (config.relevance_terms ?? []).map(fold);
+  const relevant = (i) => i.source === 'google' || !terms.length || terms.some(t => fold(`${i.title ?? ''} ${i.text ?? ''}`).includes(t));
+  const kept = new Set((snapshot.items ?? []).filter(i => i.type !== 'comment' && relevant(i)).map(i => i.url));
+  const items = (snapshot.items ?? []).filter(i => (i.type === 'comment' ? kept.has(i.parent_url) : kept.has(i.url)));
+  const dropped = (snapshot.items ?? []).length - items.length;
   const disputeTerms = scoring.dispute_terms ?? [];
 
   // File lần chạy trước (ngày trước đó) để tính tốc độ tăng
@@ -200,9 +211,9 @@ function main() {
 
   const candidates = clusters.map((c, i) => {
     // Bình luận mẫu: ưu tiên bình luận có từ phản bác, nhiều like, nhiều trả lời
-    const foldedTerms = disputeTerms.map(fold);
+    const foldedTerms = disputeTerms.map(lower);
     const samples = [...c.comments]
-      .map(cm => ({ cm, w: (foldedTerms.some(t => fold(cm.text).includes(t)) ? 1000 : 0) + (cm.metrics.likes ?? 0) + 2 * (cm.metrics.comments ?? 0) }))
+      .map(cm => ({ cm, w: (foldedTerms.some(t => lower(cm.text).includes(t)) ? 1000 : 0) + (cm.metrics.likes ?? 0) + 2 * (cm.metrics.comments ?? 0) }))
       .sort((a, b) => b.w - a.w)
       .slice(0, maxSamples)
       .map(({ cm }) => ({ text: cm.text.slice(0, 400), likes: cm.metrics.likes, replies: cm.metrics.comments, source: cm.source, parent_url: cm.parent_url }));
@@ -230,7 +241,7 @@ function main() {
   };
   fs.writeFileSync(outPath, JSON.stringify(out, null, 2) + '\n', 'utf-8');
 
-  console.log(`✅ ${candidates.length} cụm chủ đề từ ${items.length} item (${path.basename(file)}) → context/topic-candidates.json`);
+  console.log(`✅ ${candidates.length} cụm chủ đề từ ${items.length} item (${path.basename(file)}; bỏ ${dropped} item không liên quan lái xe) → context/topic-candidates.json`);
   for (const c of candidates.slice(0, 15)) {
     console.log(`   ${String(c.raw_score.total).padStart(5)}  hot ${c.raw_score.hot} · tranh cãi ${c.raw_score.controversy} · ${c.item_count} bài · ${c.sample_comments.length} BL · ${c.name}`);
   }

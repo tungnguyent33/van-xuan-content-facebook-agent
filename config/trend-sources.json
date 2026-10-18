@@ -236,5 +236,41 @@
     "175cc",
     "luật giao thông",
     "giao thông"
-  ]
+  ],
+  "scoring": {
+    "_ghi_chu": "Dùng bởi scripts/score-topics.js. dispute_terms: từ phản bác để đo tín hiệu tranh cãi (so khớp giữ dấu, không phân biệt hoa thường — thêm cả bản không dấu nếu cần).",
+    "dispute_terms": [
+      "vô lý",
+      "vo ly",
+      "sai rồi",
+      "sai roi",
+      "làm khó dân",
+      "lam kho dan",
+      "hành dân",
+      "tốn tiền",
+      "ton tien",
+      "thật không",
+      "that khong",
+      "ai bảo",
+      "không đúng",
+      "ko đúng",
+      "k đúng",
+      "bịa",
+      "láo",
+      "lừa đảo",
+      "vớ vẩn",
+      "nhảm",
+      "phản đối",
+      "bất cập",
+      "làm tiền",
+      "đâu có",
+      "chả hiểu",
+      "vô lí",
+      "cải lùi",
+      "khổ dân"
+    ],
+    "min_similarity": 0.08,
+    "merge_similarity": 0.75,
+    "sample_comments_max": 100
+  }
 }
