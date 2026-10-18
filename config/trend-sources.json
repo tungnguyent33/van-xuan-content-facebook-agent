@@ -133,6 +133,83 @@
       "comment_input": {
         "viewOption": "RANKED_UNFILTERED"
       }
+    },
+    {
+      "id": "youtube",
+      "_ghi_chu": "Đang TẮT (tốn tín dụng). Chạy riêng hằng tuần: node scripts/fetch-trends.js --source=youtube",
+      "enabled": false,
+      "module": "youtube",
+      "actor": "streamers/youtube-scraper",
+      "comments_actor": "streamers/youtube-comments-scraper",
+      "keyword_groups": [
+        "thi_bang",
+        "luat_moi",
+        "cap_doi"
+      ],
+      "max_results_per_keyword": 5,
+      "max_age_days": 365,
+      "timeout_seconds": 600,
+      "max_charge_usd": {
+        "video": 0.5,
+        "comments": 0.5
+      },
+      "video_input": {
+        "sortingOrder": "relevance",
+        "dateFilter": "year",
+        "maxResultsShorts": 0,
+        "maxResultStreams": 0
+      },
+      "comments": {
+        "max_videos": 5,
+        "max_per_video": 40
+      },
+      "comment_input": {
+        "sortCommentsBy": "TOP_COMMENTS"
+      }
+    },
+    {
+      "id": "forum",
+      "_ghi_chu": "Đang TẮT. Bước 1 tìm chủ đề qua Google (site:...), bước 2 chỉ đọc nội dung diễn đàn crawl: true, tôn trọng robots.txt. voz.vn để crawl: false vì robots.txt chặn bot AI. Chạy: node scripts/fetch-trends.js --source=forum",
+      "enabled": false,
+      "module": "forum",
+      "search_actor": "apify/google-search-scraper",
+      "crawl_actor": "apify/website-content-crawler",
+      "keyword_groups": [
+        "thi_bang",
+        "luat_moi",
+        "cap_doi"
+      ],
+      "forums": [
+        {
+          "domain": "otofun.net",
+          "crawl": true
+        },
+        {
+          "domain": "voz.vn",
+          "crawl": false
+        }
+      ],
+      "max_results_per_keyword": 3,
+      "max_threads": 10,
+      "max_text_chars": 6000,
+      "timeout_seconds": 600,
+      "max_charge_usd": {
+        "search": 0.5,
+        "crawl": 0.5
+      },
+      "search_input": {
+        "maxPagesPerQuery": 1,
+        "languageCode": "vi",
+        "countryCode": "vn"
+      },
+      "crawl_input": {
+        "crawlerType": "cheerio",
+        "proxyConfiguration": {
+          "useApifyProxy": true
+        },
+        "saveMarkdown": false,
+        "removeElementsCssSelector": "nav, footer, header, script, style, noscript, svg, .message-user, .message-attribution, .message-signature, .bbCodeBlock-title, .avatar, .username, .p-breadcrumbs, .block-outer, .shareButtons, .reactionsBar, .message-footer"
+      }
     }
   ],
   "relevance_terms": [

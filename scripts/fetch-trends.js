@@ -13,7 +13,7 @@ const trendsMdPath = path.join(rootDir, 'context', 'trends.md');
 
 // Tham số CLI:
 //   --dry-run            in input từng nguồn, không gọi API, không ghi file
-//   --source=google      chỉ chạy 1 nguồn (theo id trong config)
+//   --source=google      chỉ chạy các nguồn này (id trong config, cách nhau dấu phẩy; "all" = mọi nguồn kể cả đang tắt)
 //   --keyword="..."      thay bộ từ khóa trong config bằng 1 từ khóa (chạy thử)
 //   --limit=3            ghi đè max_results_per_keyword
 //   --set=a.b=giá_trị    ghi đè 1 khóa bất kỳ trong cấu hình nguồn (lặp lại được),
@@ -120,7 +120,8 @@ async function main() {
   const timeoutSeconds = config.defaults?.timeout_seconds ?? 300;
 
   let sources = config.sources.filter(s => s.enabled);
-  if (onlySource) sources = config.sources.filter(s => s.id === onlySource);
+  if (onlySource === "all") sources = config.sources;
+  else if (onlySource) sources = config.sources.filter(s => onlySource.split(",").includes(s.id));
   if (sources.length === 0) {
     console.error(`❌ Không có nguồn nào để chạy${onlySource ? ` (không tìm thấy nguồn "${onlySource}")` : ' (tất cả đang tắt)'}.`);
     process.exit(1);
