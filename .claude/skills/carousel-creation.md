@@ -8,6 +8,9 @@ Quy trình tạo carousel (PDF/ảnh nhiều slide) chuẩn cho Vạn Xuân.
 - Slide cuối: Kêu gọi hành động (CTA) — ví dụ: liên hệ đăng ký, theo dõi fanpage
 
 ## Các bước
+0. Nếu chủ đề là chủ đề tranh cãi (từ `context/topic-bank.md`): tuân theo mục "Quy tắc với chủ đề
+   tranh cãi" trong CLAUDE.md — có 1 slide trình bày hai phía, slide chốt ghi nguồn chính thức, không
+   đưa ảnh chụp bình luận có tên/ảnh đại diện.
 1. Tham khảo `reference/carousel-samples/` để giữ đúng bố cục, font, màu.
 2. Với chủ đề có nhiều bước/nhiều ý (ví dụ: "5 bước đăng ký học lái xe", "7 lỗi hay bị trừ điểm B2") — ưu tiên carousel thay vì bài viết dài.
 3. Giữ mỗi slide ngắn gọn — không quá 1 ý chính, không quá 20-25 từ.

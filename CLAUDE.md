@@ -46,6 +46,30 @@ Tôi hỗ trợ sản xuất nội dung cho **Văn phòng đào tạo lái xe V�
 - Trước khi lưu bài/kịch bản, tự kiểm tra: khối có mặt, khớp từng ký tự với `business.md`. Nếu
   người dùng đổi thông tin liên hệ, chỉ sửa ở `business.md`, không sửa rải rác trong bài.
 
+## Quy tắc với chủ đề tranh cãi (quy tắc cứng)
+Áp dụng cho **mọi bài viết và kịch bản video** dùng chủ đề từ `context/topic-bank.md` hoặc bất kỳ
+chủ đề nào có hai luồng ý kiến trái ngược (luật mới, thi cử, học phí, cấp đổi...).
+- **Tranh cãi chỉ để giải thích, rồi chốt bằng thông tin đã xác minh** kèm link nguồn chính thức
+  (văn bản luật/nghị định/thông tư, trang Bộ Công an, Cục CSGT, Công an tỉnh, Cổng Dịch vụ công).
+  Báo chí, trang trung tâm khác chỉ là nguồn thứ cấp. Không tạo drama, không giật tít câu phẫn nộ,
+  không dùng thông tin sai hoặc chưa kiểm để kích động.
+- **Trình bày công bằng cả hai phía** (phe A nghĩ gì, phe B nghĩ gì, vì sao họ nghĩ vậy) trước khi
+  đưa kết luận.
+- **Không** chê trung tâm/kênh dạy lái xe khác, **không** châm chọc CSGT hay cơ quan nhà nước,
+  **không** hướng dẫn lách luật (né phạt, mua bằng, "bao đậu", thi hộ...).
+- **Không trích nguyên văn bình luận kèm tên/ảnh người dùng.** Bình luận đưa vào bài phải rút gọn,
+  bỏ mọi tên, biệt danh, `@tên`, số điện thoại. Khi đưa ảnh chụp bình luận lên video phải che tên và
+  ảnh đại diện (ghi rõ trong ghi chú quay).
+- **Chủ đề trạng thái `cần duyệt` trong topic-bank KHÔNG được tự sản xuất** (bài, video, prompt
+  ảnh) khi người dùng chưa đổi trạng thái. Nếu người dùng yêu cầu đích danh chủ đề đó, nêu lý do
+  cần duyệt và hỏi lại trước.
+- **Không đủ dữ liệu thì không xuất bài:** nếu sau khi tìm nguồn, câu trả lời cho người đọc chỉ là
+  "tùy trường hợp, liên hệ để được tư vấn" thì KHÔNG viết bài/kịch bản đó — dừng lại hỏi người dùng
+  thông tin còn thiếu, hoặc đổi sang chủ đề khác. Điểm nằm trong mục "Thông tin chưa xác minh" của
+  `context/business.md` cũng xử lý như vậy.
+- Trong bài/kịch bản ghi rõ dòng **Nguồn:** (tên văn bản + link); với kịch bản video ghi ở mục
+  "NGUỒN XÁC MINH" và chữ trên màn hình.
+
 ## Cấu trúc dữ liệu (đọc trước khi viết bài)
 - `context/` — thông tin nền (trung tâm, khóa học, chiến lược, đối tượng học viên, giọng văn)
 - `context/image/` — ảnh thật để dùng khi viết bài cần hình người/cơ sở

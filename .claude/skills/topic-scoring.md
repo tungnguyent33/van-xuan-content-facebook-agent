@@ -11,6 +11,8 @@
   `CLAUDE.md` (mục "Quy tắc với chủ đề tranh cãi"), `context/matrix.md` (format/chủ đề đang hiệu
   quả, nếu đã có số liệu).
 - `context/topic-bank.md` hiện có (để giữ trạng thái chủ đề cũ).
+- Mục "Quy tắc với chủ đề tranh cãi" trong `CLAUDE.md`: chấm Độ an toàn theo đúng các quy tắc này
+  (chủ đề dễ vi phạm thì điểm thấp → `cần duyệt`).
 
 ## Các bước
 1. **Lọc cụm rác**: bỏ cụm mà bình luận/bài không nói về lái xe, thi bằng, luật giao thông (vd.

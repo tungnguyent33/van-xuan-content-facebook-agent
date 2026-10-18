@@ -15,4 +15,6 @@ Quy trình lên ý tưởng nội dung cho Vạn Xuân.
      - Giới thiệu giáo viên/cơ sở vật chất/ảnh thật học viên
      - Giải đáp thắc mắc thường gặp (FAQ trong business.md)
 4. Với mỗi ý tưởng, xác định định dạng phù hợp nhất: ảnh thật có sẵn / infographic / carousel — dựa trên nội dung (số liệu → infographic; câu chuyện → ảnh thật; hướng dẫn nhiều bước → carousel).
-5. Trình bày danh sách ý tưởng dưới dạng bảng: # | Chủ đề | Định dạng đề xuất | Lý do — để người dùng duyệt trước khi viết full nội dung.
+5. Loại khỏi danh sách: chủ đề trạng thái `cần duyệt` trong `context/topic-bank.md`, và chủ đề không
+   đủ dữ liệu để trả lời rõ (xem mục "Quy tắc với chủ đề tranh cãi" trong CLAUDE.md).
+6. Trình bày danh sách ý tưởng dưới dạng bảng: # | Chủ đề | Định dạng đề xuất | Lý do — để người dùng duyệt trước khi viết full nội dung.
