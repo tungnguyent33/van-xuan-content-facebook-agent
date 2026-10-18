@@ -4,7 +4,7 @@ Ngày khảo sát: 18/10/2026. Bước này chỉ đọc, chưa sửa file nào 
 
 Đã đọc: `CLAUDE.md`, 5 file trong `.claude/commands/`, 3 file trong `.claude/skills/`, 5 file trong `scripts/`, `package.json`, `.env.example`, toàn bộ `context/` (kể cả `context/image/README.md`), `reference/brand-style.md`, `output/dashboard.md`. Không đọc `.env` (chứa token).
 
-**Lưu ý đường dẫn:** thư mục `docs/` chưa tồn tại trước bước này. Hai file `dinh-huong-phat-trien-agent.md` và `danh-gia-noi-dung-agent.md` đang nằm ở `context/`, không phải `docs/`. Báo cáo này dùng bản ở `context/` (xem rủi ro R1).
+**Lưu ý đường dẫn:** thư mục `docs/` chưa tồn tại trước bước này. Hai file `dinh-huong-phat-trien-agent.md` và `danh-gia-noi-dung-agent.md` lúc khảo sát nằm ở `context/`; đã chuyển sang `docs/` ngày 18/10/2026 (xử lý rủi ro R1).
 
 ---
 
@@ -143,7 +143,7 @@ Skill `viral-replication` và `carousel-creation` không đọc file này.
 ### Câu hỏi cần trả lời trước khi làm tiếp
 
 - **Q1.** `create-post.md`: xoá, giữ làm alias, hay hợp nhất với `create-1-post.md`? (Nếu giữ, mỗi thay đổi phải sửa hai nơi.)
-- **Q2.** Chuyển `dinh-huong-phat-trien-agent.md` và `danh-gia-noi-dung-agent.md` từ `context/` sang `docs/` được không?
+- **Q2.** ~~Chuyển hai báo cáo từ `context/` sang `docs/`~~ — đã làm.
 - **Q3.** Ai chấm điểm và viết `topic-bank.md`: script Node tự tính bằng công thức (view, tỷ lệ bình luận…), hay Claude đọc JSON rồi chấm (cần đọc bình luận để phân loại đồng ý/phản đối)? Hay kết hợp: script tính "độ hot", Claude chấm phần còn lại?
 - **Q4.** `context/trends.md` hiện tại: xoá, giữ làm lưu trữ, hay chuyển một lần sang `context/trends/2026-10-14.json`?
 - **Q5.** Định dạng `topic-bank.md`: chỉ thêm chủ đề mới, hay viết lại toàn bộ mỗi lần? Có cột trạng thái (mới / đã dùng / cần duyệt / loại) và liên kết tới bài/video đã làm không?
